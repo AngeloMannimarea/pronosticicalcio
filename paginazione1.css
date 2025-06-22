@@ -609,7 +609,7 @@ div#piedipagina:hover {
     margin-top:15px;
     background-color: transparent;
     border-radius: 7px;
-    min-width: 100px;
+    min-width: 90px;
     padding: 1px 1px 1px 1px;
     width: 78%;
     }
@@ -617,11 +617,11 @@ div#piedipagina:hover {
     color: black;
     background-color: whitesmoke;
     border: 1px solid black;
-    width: 25px; 
-    height: 18px;
+    width: 20px; 
+    height: 17px;
     text-align: center;
-    font-size: 12px;
-    min-width: 100px;
+    font-size: 11px;
+    min-width: 90px;
     margin-top: 3px;
     margin-bottom: 10px;
     margin-left: 10px;
