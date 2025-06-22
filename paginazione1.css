@@ -680,9 +680,9 @@ img.immagine-logo-seriea{
     border-radius: 10px;
     transition: transform 0.5s ease;
     cursor: pointer;
-    padding: 2px 2px 2px 2px;  
 }
 img.immagine-logo-seriea:hover {
+    width: 1%;
     min-width: 50px;
     margin-top: 0px;
     margin-bottom: 1px;
