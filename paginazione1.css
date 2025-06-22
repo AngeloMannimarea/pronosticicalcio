@@ -720,7 +720,7 @@ div#cellapartita {
     background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
     /* background-color: #ad94ff; */
     margin-top: 10px;
-    margin-right: 40%;
+    margin-right: 30%;
     margin-bottom: 20px;
     margin-left: 15px;
     padding: 5px 10px 10px 10px;
@@ -734,7 +734,7 @@ div#cellapartita:hover {
     background-color: #cacaca;
     /* font-weight: bolder; */
     margin-top: 10px;
-    margin-right: 35%;
+    margin-right: 30%;
     margin-bottom: 20px;
     margin-left: 20px;
     padding: 5px 10px 10px 10px;
