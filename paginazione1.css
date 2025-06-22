@@ -320,7 +320,7 @@ a:active{
 }
 /* adattamenti per schermi smartphone */
 
-@media screen and (max-width: 800px ) {
+@media only screen and (max-width: 800px ) {
     h1 {
         font-size: 35px;
     }
@@ -587,7 +587,7 @@ div#piedipagina:hover {
     padding: 5px 10px 5px 10px;        
 }
 }
-@media screen and (max-width: 600px ) {
+@media only screen and (max-width: 600px ) {
     h1 {
         font-size: 30px;
     }
