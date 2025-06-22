@@ -1,0 +1,829 @@
+* { 
+    transition: all 0.5s ease;
+    a {
+        transition: all 0.3s ease;
+    }
+}
+body{
+    color:black;
+    background-color: #08415C;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1280px;
+}
+h1 {  
+    background-image:"/home/angelo/html/sito/immagini/sfondo2-calcio"; /* Percorso immagine */
+    background-size: cover; /* Adatta l'immagine all'elemento */
+    background-position: center;
+    font-weight: bolder;
+    font-size: 45px;
+    color: gold; /* Cambia colore del testo per contrasto */
+    padding: 5px 5px 0px 5px; /* Aggiunge spazio interno */
+    text-align: left;
+    margin :10px 5px 5px 5px;
+    text-shadow:
+        0 0 4px #2b2b2b,     /* bordo interno scuro */
+        0 0 6px #d1ad0d,     /* alone medio */
+        0 0 10px #d8b800,    /* alone più largo */
+        0 0 15px #e6c510;    /* effetto "neon" */
+    cursor: default;
+}
+h1.schedine {
+    font-size: 35px;
+    margin-left: 33%;
+}
+h2{  
+    color: goldenrod;
+    /*background-color: whitesmoke;*/
+    text-align: center;
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size: normal;
+}
+h3{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div#barradinavigazione {
+    background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:30px;
+    background-color: transparent;
+    border-radius: 10px;
+    min-width: 200px;
+    padding: 1px 1px 4px 1px;
+    width: 88%;
+ }
+.cellebarra {
+    color:white;
+    /*background-color:#919191;*/
+    background-color:whitesmoke;
+    border: 1px solid black;
+    width: 25px; 
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+    min-width: 120px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px 4px black;
+}   
+.cellebarra:hover {
+    background-color: #ad94ff;  
+    border: 1px solid white;
+    box-shadow: 2px 2px 3px 2px black;
+}
+div#contenitorecampionato {
+    clear:both;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+div#campionato {
+    color :black;
+    background-color: goldenrod;
+    text-align: center;
+    font-size: 12px;
+    min-width: 180px;
+    min-height: 150px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin :5px 10px 25px 10px;
+    box-shadow: 5px 5px 9px 4px black;
+    padding: 20px 3px 0px 3px;
+}                                                                      
+div#campionato:hover {
+    color :black;
+    text-align: center;
+    min-width: 180px;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 2px black;
+    background-color: gold;
+    
+}
+div#nomecampionato {
+    background-color: rgb(211, 206, 206);
+}
+img.immagine-logo-seriea{
+    width: 60px;
+    height: 90px;
+    min-width: 50px;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+img.immagine-logo-seriea:hover {
+    width: 1%;
+    min-width: 50px;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    border: 2px solid goldenrod;
+    transform: scale(1.35); /* ingrandimento al 150% */
+    z-index: 1000;
+    cursor:default;
+}
+div#piedipagina { 
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 5px;   
+    max-width: 1100px;
+    min-width: 250px;
+    font-size: 10px;
+    text-align: center;
+    margin: 10px 30px 20px 50px; 
+    padding: 1px 1px 1px 1px;
+    cursor:zoom-in;       
+}
+div#piedipagina:hover { 
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    border: 2px solid gold;
+    border-radius: 10px;   
+    max-width: 1100px;
+    min-width: 250px;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 30px 20px 50px;
+    padding: 5px 10px 5px 10px;   
+    cursor: zoom-in;     
+}
+p.commentoselezionato:hover{
+    color: white;
+    background-color: navy;
+    font-size: small;
+    text-align: center;
+}
+p { 
+    font-size: normal;
+    text-align: center;
+}
+div#immagineclassifica {
+    background-color: white;
+    width: 200px;
+    margin: 10px auto 10px 39%;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid goldenrod;
+    border-radius: 30px;
+}
+
+#classifica{
+        /* background-color:#ad94ff;*/
+        background-color:color-mix(in hsl shorter hue, color percentage, color percentage);  
+        width: 350px;
+        font-size: 16px;
+        text-align: center;
+        color: blue;
+        margin: 5px 0px 20px 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+        box-shadow: 3px 3px 4px 3px black;
+}
+#classifica:hover {
+        background-color: goldenrod;
+        width: 350px;
+        font-size: 16px;
+        text-align: center;
+        color: blue;
+        margin: 5px 0px 20px 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+        box-shadow: 1px 1px 2px 1px black;
+}
+div#cellapartita {
+     background-color:color-mix(in hsl shorter hue, color percentage, color percentage); 
+    /* background-color: #a489fa; */
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+    margin-left: 10px;
+    padding: 5px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 9px 4px black;
+}
+div#cellapartita:hover {
+    margin-left: 20px;
+    background-color: #cacaca;  
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 35px;
+    padding: 5px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 3px 2px black;
+}
+.dataincontro{
+    width: 190px;
+    background-color: rgb(211, 206, 206);
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-left: 45px;
+    margin-bottom: 1px;
+    font-size: medium;
+    color: black;
+    text-align: center;
+    cursor: default;
+}
+.contenitore {
+    display: flex;
+    flex-wrap: wrap; /* Permette di andare a capo se serve */
+}
+.box {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    background-color: whitesmoke;
+    width: 20%; 
+    height: 30px;
+    min-width: 190px; 
+    max-width: 240px;
+    margin-left: 48px;
+    margin-top: 2px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0px 0px 0px 0px;
+    cursor: default;
+}   
+.box:hover {
+    color: rgb(119, 91, 20);
+    border: 2px solid gold;
+    cursor: default;
+}  
+div#scudetto {
+    background-color: whitesmoke;
+    float:left;
+    margin-left: 25%;
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+div#nomesquadra{
+    min-width: 170px;
+    max-width: 91%;
+    background-color: whitesmoke;
+    margin:1px;
+    margin-left: 10px;
+    padding:1px;
+}
+.boxsquadra {
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+    color: black;
+    background-color: whitesmoke;
+    
+    width: 45%; /* 2 div per riga */
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-bottom: 2px;
+    padding: 0px;
+    cursor: default;
+}  
+.boxsquadra:hover {
+    color: rgb(119, 91, 20);
+    border: 2px solid gold;
+    cursor: default;
+}  
+a{ 
+    font-weight: bold;
+    font-size: normal;
+    text-decoration :dotted ;
+    color: black;
+    text-align: center;
+    margin : auto;
+    padding: auto;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+a:active{
+    color:aquamarine;
+}
+/* adattamenti per schermi smartphone */
+
+@media screen and (max-width: 800px ) {
+    h1 {
+        font-size: 35px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    img.immagine-logo-seriea{
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    img.immagine-logo-seriea:hover {
+    border: 2px solid goldenrod;
+    cursor:default;
+    }   
+    div#immagineclassifica {
+    background-color: white;
+    width: 200px;
+    margin: 10px auto 10px 32%;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid goldenrod;
+    border-radius: 30px;
+}
+    div#barradinavigazione {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:15px;
+    background-color: transparent;
+    border-radius: 10px;
+    min-width: 130px;
+    padding: 1px 1px 1px 1px;
+    width: 78%;
+    }
+    .cellebarra {
+    color: black;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    width: 35px; 
+    height: 22px;
+    text-align: center;
+    font-size: 14px;
+    min-width: 100px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 3px 2px 2px 2px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 3px black;
+    }   
+.cellebarra:hover {
+    background-color: #ad94ff;  
+    border: 1px solid white;
+    box-shadow: 2px 2px 3px 2px black;
+}    
+div#contenitorecampionato {
+    /* clear:both; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    }
+div#campionato {
+    color :black;
+    background-color: goldenrod;
+    text-align: center;
+    font-size: 11px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    max-width: 130px;
+    min-width: 120px;
+    min-height: 130px;
+    box-shadow: 5px 5px 9px 4px black;
+    margin-top: 5px;
+    padding: 12px 3px 3px 3px;
+    margin :5px 10px 25px 10px;
+    }
+div#campionato:hover {
+    background-color: gold;
+    color :black;
+    text-align: center;
+    max-width: 130px;
+    min-width: 120px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 2px black;
+    margin :5px 10px 25px 10px;
+    }
+img.immagine-logo-seriea{
+    width: 60px;
+    height: 90px;
+    min-width: 50px;
+    margin-top: 1px;
+    margin-bottom: auto;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    padding: 2px 2px 2px 2px;  
+}
+img.immagine-logo-seriea:hover {
+    width: 1%;
+    min-width: 50px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    border: 2px solid goldenrod;
+    transform: scale(1.25); /* ingrandimento al 150% */
+    z-index: 1000;
+    cursor:default;
+}    
+h1.schedine{
+    font-size: 30px;
+    margin-left: 15%;
+}
+#classifica{
+        /* position:fixed; */
+        background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
+        /*background-color: #888888;
+        background-color: color-mix(in srgb, white 80%, black);*/
+        width: 350px;
+        font-size: 16px;
+        text-align: center;
+        margin: 5px 0px 30px 150px;
+        border-radius: 10px;
+        border: 1px solid black;
+        box-shadow: 3px 3px 4px 3px black;
+}
+#classifica:hover {
+        /* position:fixed; */
+        background-color: goldenrod;
+        width: 350px;
+        font-size: 16px;
+        text-align: center;
+        margin: 5px 0px 30px 150px;
+        border-radius: 10px;
+        border: 1px solid black;
+        box-shadow: 1px 1px 2px 1px black;
+}
+div#cellapartita {
+    /*background-color: #ad94ff;*/
+    background-color:color-mix(in hsl shorter hue, color percentage, color percentage); 
+    margin-top: 10px;
+    margin-right: 40%;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    padding: 5px 10px 10px 10px;
+    max-width: 500px;
+    min-width: 500px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 9px 4px black;
+}
+div#cellapartita:hover {
+    background-color: #cacaca;
+    /* font-weight: bolder; */
+    margin-top: 10px;
+    margin-right: 40%;
+    margin-bottom: 30px;
+    margin-left: 75px;
+    padding: 5px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 3px 2px black;
+}
+.dataincontro{
+    width: 160px;
+    background-color: rgb(211, 206, 206);
+    background-color: white;
+    border-radius: 10px; 
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-left: 170px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    cursor: default;
+}
+.contenitore {
+    display: flex;
+    flex-wrap: wrap; /* Permette di andare a capo se serve */
+}
+.box {
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    width: 150px; 
+    height: 25px;
+    min-width: 230px;
+    max-width: 230px;
+    margin-left: 12px;
+    margin-top: 2px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 0px 1px 0px;
+    cursor: default;
+}   
+.box:hover {
+    border:1px solid gold;
+}
+div#scudetto {
+    background-color: whitesmoke;
+    float:left;
+    margin-left: 5%;
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+div#nomesquadra{
+    min-width: 170px;
+    max-width: 80%;
+    background-color: whitesmoke;
+    margin:1px;
+    margin-left: 10px;
+    padding:1px;
+}
+.boxsquadra {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    /*background-color: #D4CB92;*/
+    background-color:  rgb(211, 206, 206);
+    background-color: whitesmoke;
+    min-width: 230px;
+    max-width: 230px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-left: 12px;
+    margin-bottom: 2px;
+    padding: 10px;
+    cursor: default;
+}  
+.boxsquadra:hover {
+    border: 1px solid gold;
+}
+div#piedipagina { 
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;   
+    max-width: 800px;
+    min-width: 250px;
+    font-size: 10px;
+    text-align: center;
+    margin: 10px 30px 20px 30px; 
+    padding: 1px 1px 1px 1px;       
+}
+div#piedipagina:hover { 
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    border: 1px solid gold;
+    border-radius: 10px;   
+    max-width: 800px;
+    min-width: 250px;
+    font-size: 14px;
+    /* font-weight: bolder; */
+    text-align: center;
+    margin: 10px 30px 20px 30px;
+    padding: 5px 10px 5px 10px;        
+}
+}
+@media screen and (max-width: 600px ) {
+    h1 {
+        font-size: 30px;
+    }
+    h3{
+        font-size: 13px;
+    }
+    img.immagine-logo-seriea{
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    img.immagine-logo-seriea:hover {
+    border: 2px solid goldenrod;
+    cursor:default;
+    }   
+    div#barradinavigazione {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:15px;
+    background-color: transparent;
+    border-radius: 7px;
+    min-width: 100px;
+    padding: 1px 1px 1px 1px;
+    width: 78%;
+    }
+    .cellebarra {
+    color: black;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    width: 25px; 
+    height: 18px;
+    text-align: center;
+    font-size: 12px;
+    min-width: 100px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 1px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 4px 2px black;
+    }  
+ .cellebarra:hover {
+    background-color: #ad94ff;  
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px black;
+}    
+div#contenitorecampionato {
+    /* clear:both; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    }
+div#campionato {
+    color :black;
+    background-color: goldenrod;
+    text-align: center;
+    font-size: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    max-width: 150px;
+    min-width: 100px;
+    min-height: 130px;
+    box-shadow: 5px 5px 9px 4px black;
+    margin-top: 5px;
+    padding: 12px 3px 3px 3px;
+    margin :5px 10px 25px 10px;
+    }
+div#campionato:hover {
+    background-color: gold;
+    color :black;
+    text-align: center;
+    max-width: 100px;
+    min-width: 100px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 2px black;
+    margin :5px 10px 25px 10px;
+    }
+img.immagine-logo-seriea{
+    width: 60px;
+    height: 90px;
+    min-width: 50px;
+    margin-top: 1px;
+    margin-bottom: auto;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    padding: 2px 2px 2px 2px;  
+}
+img.immagine-logo-seriea:hover {
+    width: 1%;
+    min-width: 50px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    border: 2px solid gold;
+    transform: scale(1.20); /* ingrandimento al 150% */
+    z-index: 1000;
+    cursor:default;
+}    
+h1.schedine{
+    font-size: 25px;
+    margin-left: 15%;
+}
+div#immagineclassifica {
+    display:none;
+}
+#classifica{
+        background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
+        /*background-color: color-mix(in srgb, white 80%, black);*/
+        width: 350px;
+        font-size: 16px;
+        text-align: center;
+        margin: 20px 0px 20px 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+        box-shadow: 3px 3px 4px 3px black;
+}
+#classifica:hover {
+        /* position:fixed; */
+        background-color: goldenrod;
+        width: 350px;
+        font-size: 16px;
+        text-align: center;
+        margin: 20px 0px 20px 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+        box-shadow: 1px 1px 2px 1px black;
+}
+div#cellapartita {
+    background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
+    /* background-color: #ad94ff; */
+    margin-top: 10px;
+    margin-right: 45%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 5px 10px 10px 10px;
+    max-width: 225px;
+    min-width: 225px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 9px 4px black;
+}
+div#cellapartita:hover {
+    background-color: #cacaca;
+    /* font-weight: bolder; */
+    margin-top: 10px;
+    margin-right: 45%;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    padding: 5px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 3px 2px black;
+}
+.dataincontro{
+    width: 150px;
+    background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: black;
+    
+    text-align: center;
+    cursor: default;
+}
+.contenitore {
+    display: flex;
+    flex-wrap: wrap; /* Permette di andare a capo se serve */
+}
+.box {
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    background-color: white;
+    width: 150px; 
+    height: 25px;
+    min-width: 200px;
+    max-width: 200px;
+    margin-left: 12px;
+    margin-top: 2px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px 0px 1px 0px;
+    cursor: default;
+}   
+div#scudetto {
+    width: 40%;
+    background-color: whitesmoke;
+    float:left;
+    margin-left: 5%;
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+div#nomesquadra{
+    min-width: 170px;
+    max-width: 80%;
+    background-color: whitesmoke;
+    margin:1px;
+    margin-left: 10px;
+    padding:1px;
+}
+.boxsquadra {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    /*background-color: #D4CB92;*/
+    background-color:  rgb(211, 206, 206);
+    background-color: whitesmoke;
+    min-width: 200px;
+    max-width: 200px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-left: 12px;
+    margin-bottom: 2px;
+    padding: 10px;
+    cursor: default;
+}  
+.box:hover {
+    border: 1px solid gold;
+    font-weight: normal;
+}
+.boxsquadra:hover{
+    border: 1px solid gold;
+    font-weight: normal;
+
+}
+div#piedipagina{
+    display: none;
+}
+}

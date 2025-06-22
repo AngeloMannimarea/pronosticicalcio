@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Div Affiancati</title>
+  <style>
+    .container {
+      display: flex;
+      gap: 20px; /* Spazio tra i div */
+      flex-wrap: wrap; /* Fa andare a capo se lo spazio non basta */
+    }
+
+    .box {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 300px; /* Larghezza fissa per ogni div */
+    }
+
+    video {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box">
+      <p>Candela nel bicchiere di vetro. Un panorama innevato e volatili</p>
+      <video controls>
+        <source src="/home/angelo/html/sito/video/candelabicchiere.mp4" type="video/mp4">
+        Il tuo browser non supporta il video.
+      </video>
+    </div>
+
+    <div class="box">
+      <p>Gatto seduto, studia il terreno coi sensi. Troverà quello che cerca?</p>
+      <video controls>
+        <source src="/home/angelo/html/sito/video/gattoseduto.mp4" type="video/mp4">
+        Il tuo browser non supporta il video.
+      </video>
+    </div>
+
+    <div class="box">
+      <p>Una strada sicura nel mezzo di una fitta foresta.</p>
+      <video controls>
+        <source src="/home/angelo/html/sito/video/macchinanellaforesta.mp4" type="video/mp4">
+        Il tuo browser non supporta il video.
+      </video>
+    </div>
+
+    <!-- Puoi aggiungerne altri -->
+  </div>
+
+</body>
+</html>

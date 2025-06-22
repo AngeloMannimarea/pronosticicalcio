@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Video affiancati a paragrafi</title>
+  <style>
+    .row {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .row video {
+      width: 300px;
+      height: auto;
+    }
+
+    .row p {
+      flex: 1;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="row">
+    <video controls>
+      <source src="/home/angelo/html/sito/video/ondasullasabbia.mp4" type="video/mp4">
+      Il tuo browser non supporta il video.
+    </video>
+    <p>Questo è il testo relativo al primo video. Puoi scrivere una descrizione o un commento qui.</p>
+  </div>
+
+  <div class="row">
+    <video controls>
+      <source src="/home/angelo/html/sito/video/ragazzaepiscina.mp4" type="video/mp4">
+      Il tuo browser non supporta il video.
+    </video>
+    <p>Questo è il testo relativo al secondo video. Può essere diverso dal primo.</p>
+  </div>
+
+</body>
+</html>
