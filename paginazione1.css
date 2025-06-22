@@ -305,7 +305,7 @@ div#nomesquadra{
 a{ 
     font-weight: bold;
     font-size: normal;
-    text-decoration :dotted ;
+    /* text-decoration :dotted ; */
     color: black;
     text-align: center;
     margin : auto;
