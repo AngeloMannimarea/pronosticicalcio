@@ -589,8 +589,12 @@ div#piedipagina:hover {
 }
 @media only screen and (max-width: 600px ) {
     h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
+    h1.schedine{
+    font-size: 20px;
+    margin-left: 15%;
+}
     h3{
         font-size: 13px;
     }
@@ -687,10 +691,7 @@ img.immagine-logo-seriea:hover {
     z-index: 1000;
     cursor:default;
 }    
-h1.schedine{
-    font-size: 25px;
-    margin-left: 15%;
-}
+
 div#immagineclassifica {
     display:none;
 }
