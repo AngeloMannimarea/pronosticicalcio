@@ -305,7 +305,7 @@ div#nomesquadra{
 a{ 
     font-weight: bold;
     font-size: normal;
-    /* text-decoration :dotted ; */
+    text-decoration :dotted ;
     color: black;
     text-align: center;
     margin : auto;
@@ -826,4 +826,19 @@ div#nomesquadra{
 div#piedipagina{
     display: none;
 }
+  a{ 
+    font-weight: bold;
+    font-size: normal;
+    color: black;
+    text-align: center;
+    margin : auto;
+    padding: auto;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+a:active{
+    color: white;
+}  
 }
