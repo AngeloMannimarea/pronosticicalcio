@@ -287,12 +287,12 @@ div#nomesquadra{
     color: black;
     background-color: whitesmoke;
     
-    width: 45%; /* 2 div per riga */
+    width: 48%; /* 2 div per riga */
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 10px;
     margin-top: 5px;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-bottom: 2px;
     padding: 0px;
     cursor: default;
