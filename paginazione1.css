@@ -10,6 +10,10 @@ body{
     background-attachment: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 1280px;
+    
+}
+html{
+    padding:0px;
 }
 h1 {  
     background-image:"/home/angelo/html/sito/immagini/sfondo2-calcio"; /* Percorso immagine */
