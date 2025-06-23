@@ -828,11 +828,11 @@ div#nomesquadra{
 }  
 .box:hover {
     border: 1px solid gold;
-    font-weight: normal;
+    font-weight: bold;
 }
 .boxsquadra:hover{
     border: 1px solid gold;
-    font-weight: normal;
+    font-weight: bold;
 
 }
 div#piedipagina{
