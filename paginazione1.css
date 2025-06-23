@@ -695,8 +695,7 @@ div#immagineclassifica {
     display:none;
 }
 #classifica{
-        background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
-        /*background-color: color-mix(in srgb, white 80%, black);*/
+        background-color:goldenrod;
         width: 300px;
         font-size: 16px;
         text-align: center;
@@ -707,7 +706,7 @@ div#immagineclassifica {
 }
 #classifica:hover {
         /* position:fixed; */
-        background-color: goldenrod;
+        background-color: gold;
         width: 300px;
         font-size: 16px;
         text-align: center;
