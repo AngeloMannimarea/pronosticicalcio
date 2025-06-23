@@ -765,10 +765,10 @@ div#cellapartita:hover {
     font-size: 10px;
     color: black;
     background-color: white;
-    width: 220px; 
+    width: 230px; 
     height: 25px;
-    min-width: 220px;
-    max-width: 220px;
+    min-width: 230px;
+    max-width: 230px;
     margin-left: 10px;
     margin-top: 2px;
     box-sizing: border-box;
@@ -802,8 +802,8 @@ div#nomesquadra{
     /*background-color: #D4CB92;*/
     background-color:  rgb(211, 206, 206);
     background-color: whitesmoke;
-    min-width: 220px;
-    max-width: 220px;
+    min-width: 230px;
+    max-width: 230px;
     box-sizing: border-box;
     border: 1px solid black;
     border-radius: 10px;
