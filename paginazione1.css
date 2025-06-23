@@ -695,6 +695,7 @@ div#immagineclassifica {
     display:none;
 }
 #classifica{
+        position: fixed;
         background-color:goldenrod;
         width: 295px;
         font-size: 16px;
@@ -705,7 +706,7 @@ div#immagineclassifica {
         box-shadow: 3px 3px 4px 3px black;
 }
 #classifica:hover {
-        /* position:fixed; */
+        position:fixed;
         background-color: gold;
         width: 295px;
         font-size: 16px;
