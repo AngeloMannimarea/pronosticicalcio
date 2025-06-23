@@ -697,10 +697,11 @@ div#immagineclassifica {
 div#lavori {
     position: fixed;
     background-color: goldenrod;
-    width: 305px;
-    heigth:95px;
+    width: 260px;
+    heigth:90px;
     margin-top: 300px;
     margin-left: 1px;    
+    padding: 5px;
 }
 #classifica{
         position: fixed;
