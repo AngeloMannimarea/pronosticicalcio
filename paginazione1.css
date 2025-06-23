@@ -734,7 +734,7 @@ div#lavori {
 div#cellapartita {
     background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
     /* background-color: #ad94ff; */
-    margin-top: 20px;
+    margin-top: 45px;
     margin-right: 20%;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -748,7 +748,7 @@ div#cellapartita {
 div#cellapartita:hover {
     background-color: #cacaca;
     /* font-weight: bolder; */
-    margin-top: 20px;
+    margin-top: 45px;
     margin-right: 20%;
     margin-bottom: 20px;
     margin-left: 25px;
