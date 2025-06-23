@@ -721,7 +721,7 @@ div#cellapartita {
     margin-top: 10px;
     margin-right: 20%;
     margin-bottom: 20px;
-    margin-left: 15px;
+    margin-left: 20px;
     padding: 5px 10px 10px 10px;
     max-width: 250px;
     min-width: 250px;
@@ -735,7 +735,7 @@ div#cellapartita:hover {
     margin-top: 10px;
     margin-right: 20%;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 25px;
     padding: 5px 10px 10px 10px;
     border: 2px solid black;
     border-radius: 10px; 
