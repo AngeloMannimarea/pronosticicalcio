@@ -694,6 +694,14 @@ img.immagine-logo-seriea:hover {
 div#immagineclassifica {
     display:none;
 }
+div#lavori {
+    position: fixed;
+    background-color: goldenrod;
+    width: 305px;
+    heigth:95px;
+    margin-top: 300px;
+    margin-left: 1px;    
+}
 #classifica{
         position: fixed;
         background-color:goldenrod;
