@@ -218,6 +218,7 @@ div#cellapartita {
     box-shadow: 5px 5px 9px 4px black;
 }
 div#cellapartita:hover {
+    font-weight: bold;
     margin-left: 20px;
     background-color: #cacaca;  
     margin-top: 10px;
