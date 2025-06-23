@@ -700,7 +700,7 @@ div#immagineclassifica {
         width: 295px;
         font-size: 16px;
         text-align: center;
-        margin: 550px 10px 25px 10px;
+        margin: 600px 10px 25px 10px;
         padding: 3px;
         border-radius: 10px;
         border: 1px solid black;
@@ -712,7 +712,7 @@ div#immagineclassifica {
         width: 295px;
         font-size: 16px;
         text-align: center;
-        margin: 550px 10px 25px 10px;
+        margin: 600px 10px 25px 10px;
         padding:3px;
         border-radius: 10px;
         border: 1px solid black;
@@ -721,7 +721,7 @@ div#immagineclassifica {
 div#cellapartita {
     background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
     /* background-color: #ad94ff; */
-    margin-top: 10px;
+    margin-top: 20px;
     margin-right: 20%;
     margin-bottom: 20px;
     margin-left: 20px;
