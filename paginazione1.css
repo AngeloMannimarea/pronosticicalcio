@@ -290,7 +290,6 @@ div#nomesquadra{
     font-size: large;
     color: black;
     background-color: whitesmoke;
-    
     width: 48%; /* 2 div per riga */
     box-sizing: border-box;
     border: 2px solid black;
@@ -701,8 +700,8 @@ div#immagineclassifica {
 div#lavori {
     position: fixed;
     background-color: goldenrod;
-    width: 260px;
-    heigth:90px;
+    width: 258px;
+    heigth:88px;
     margin-top: 300px;
     margin-left: 1px;    
     padding: 5px;
