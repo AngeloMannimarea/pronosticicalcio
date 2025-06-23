@@ -697,10 +697,10 @@ div#immagineclassifica {
 #classifica{
         background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
         /*background-color: color-mix(in srgb, white 80%, black);*/
-        width: 350px;
+        width: 300px;
         font-size: 16px;
         text-align: center;
-        margin: 20px 0px 20px 10px;
+        margin: 20px 10px 25px 10px;
         border-radius: 10px;
         border: 1px solid black;
         box-shadow: 3px 3px 4px 3px black;
@@ -708,10 +708,10 @@ div#immagineclassifica {
 #classifica:hover {
         /* position:fixed; */
         background-color: goldenrod;
-        width: 350px;
+        width: 300px;
         font-size: 16px;
         text-align: center;
-        margin: 20px 0px 20px 10px;
+        margin: 20px 10px 25px 10px;
         border-radius: 10px;
         border: 1px solid black;
         box-shadow: 1px 1px 2px 1px black;
