@@ -78,7 +78,7 @@ div#barradinavigazione {
     box-shadow: 5px 5px 9px 4px black;
 }   
 .cellebarra:hover {
-    background-color: #ad94ff;  
+    background-color: gold;  
     border: 1px solid white;
     box-shadow: 2px 2px 3px 2px black;
 }
@@ -325,7 +325,7 @@ a{
 }
 a:hover{
     text-decoration: underline;
-    color: white;
+    color: black;
 }
 a:active{
     color:aquamarine;
