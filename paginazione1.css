@@ -291,7 +291,7 @@ div#nomesquadra{
     font-size: large;
     color: black;
     background-color: whitesmoke;
-    width: 48%; /* 2 div per riga */
+    width: 45%; /* 2 div per riga */
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 10px;
