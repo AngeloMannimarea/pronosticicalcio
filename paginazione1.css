@@ -24,7 +24,7 @@ h1 {
     color: gold; /* Cambia colore del testo per contrasto */
     padding: 5px 5px 0px 5px; /* Aggiunge spazio interno */
     text-align: left;
-    margin :10px 5px 5px 5px;
+    margin :10px 5px 25px 5px;
     text-shadow:
         0 0 4px #2b2b2b,     /* bordo interno scuro */
         0 0 6px #d1ad0d,     /* alone medio */
