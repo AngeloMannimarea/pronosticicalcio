@@ -714,6 +714,9 @@ img.immagine-logo-seriea:hover {
 div#immagineclassifica {
     display:none;
 }
+div#immagineclassificabundesliga {
+    display:none;
+}    
 div#lavori {
     position: fixed;
     background-color: goldenrod;
