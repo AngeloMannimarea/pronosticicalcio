@@ -341,7 +341,7 @@ a:active{
     cursor:default;
     }   
     div#immagineclassifica {
-    background-color: white;
+    background-color: black;
     width: 200px;
     margin: 10px auto 10px 32%;
     padding: 10px 10px 10px 10px;
