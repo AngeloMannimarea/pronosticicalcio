@@ -123,6 +123,7 @@ img.immagine-logo-seriea{
     border: 2px solid goldenrod;
     border-radius: 10px;
     transition: transform 0.5s ease;
+    cursor: pointer;
 }
 img.immagine-logo-seriea:hover {
     width: 1%;
@@ -132,6 +133,7 @@ img.immagine-logo-seriea:hover {
     border: 2px solid goldenrod;
     transform: scale(1.35); /* ingrandimento al 150% */
     z-index: 1000;
+    cursor: pointer;
 }
 div#piedipagina { 
     color: black;
