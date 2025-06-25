@@ -292,6 +292,7 @@ div#nomesquadra{
     background-color: red;
     padding: 0px 5px 5px 5px;
     margin-left: 10%;
+    margin-top:3px;
 }
 .boxsquadra {
     font-weight: bolder;
