@@ -810,7 +810,7 @@ div#cellapartita:hover {
     cursor: default;
 }   
 div#scudetto {
-    width: 40%;
+    width: 30px;
     background-color: whitesmoke;
     float:left;
     margin-left: 5px;
@@ -836,7 +836,6 @@ div#nomesquadra{
     background-color: whitesmoke;
     min-width: 230px;
     max-width: 230px; 
-    height: 50px;
     box-sizing: border-box;
     border: 1px solid black;
     border-radius: 10px;
