@@ -289,9 +289,7 @@ div#nomesquadra{
     min-width: 170px;
     max-width: 91%;
     background-color: red;
-    margin:1px;
-    margin-left: 10px;
-    padding:1px;
+    padding: 5px 5px 5px 5px;
 }
 .boxsquadra {
     font-weight: bolder;
@@ -307,7 +305,7 @@ div#nomesquadra{
     margin-top: 5px;
     margin-left: 25px;
     margin-bottom: 2px;
-    padding: 20px;
+    padding: 5px 5px 5px 5px;
     cursor: default;
 }  
 .boxsquadra:hover {
