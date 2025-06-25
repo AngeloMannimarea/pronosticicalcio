@@ -281,7 +281,7 @@ div#scudetto {
     background-color: green;
     float:left;
     margin-left: 25%;
-    padding: 2px;
+    padding: 1px;
     margin-bottom: 0px;
     margin-top: 3px;
 }
@@ -289,7 +289,7 @@ div#nomesquadra{
     min-width: 170px;
     max-width: 91%;
     background-color: red;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 5px 30px 5px;
 }
 .boxsquadra {
     font-weight: bolder;
