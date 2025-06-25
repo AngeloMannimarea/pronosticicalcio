@@ -306,7 +306,7 @@ div#nomesquadra{
     margin-top: 5px;
     margin-left: 50px;
     margin-bottom: 2px;
-    padding: 0px;
+    padding: 5px;
     cursor: default;
 }  
 .boxsquadra:hover {
