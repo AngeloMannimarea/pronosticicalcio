@@ -279,7 +279,7 @@ div#cellapartita:hover {
 }  
 div#scudetto {
     background-color: whitesmoke;
-    float:top;
+    float:left;
     margin-left: 5%;
     padding: 1px;
     margin-bottom: 0px;
