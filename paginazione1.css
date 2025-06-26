@@ -346,8 +346,9 @@ a:active{
     cursor: pointer;
     }
     img.immagine-logo-seriea:hover {
+    width:65px;
     border: 2px solid goldenrod;
-    cursor:default;
+    cursor:pointer;
     }   
     div#immagineclassifica {
     background-color: white;
