@@ -286,6 +286,7 @@ div#scudetto {
     margin-top: 15px;
 }
 div#nomesquadra{
+    font-size:medium;
     min-width: 170px;
     max-width: 91%;
     height: 35px;
@@ -297,7 +298,7 @@ div#nomesquadra{
 .boxsquadra {
     font-weight: bolder;
     text-align: center;
-    font-size: large;
+    font-size: medium;
     color: black;
     background-color: whitesmoke;
     width: 45%; /* 2 div per riga */
