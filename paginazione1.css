@@ -346,7 +346,6 @@ a:active{
     cursor: pointer;
     }
     img.immagine-logo-seriea:hover {
-    width:65px;
     border: 2px solid goldenrod;
     cursor:pointer;
     }   
@@ -442,7 +441,7 @@ img.immagine-logo-seriea{
     padding: 2px 2px 2px 2px;  
 }
 img.immagine-logo-seriea:hover {
-    width: 1%;
+    width: 65px;
     min-width: 50px;
     margin-top: 0px;
     margin-bottom: 1px;
