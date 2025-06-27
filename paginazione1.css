@@ -282,9 +282,9 @@ div#scudetto {
     background-color: whitesmoke;
     float:left;
     margin-left: 5%;
-    padding: 3px;
+    padding: 1px;
     margin-bottom: 0px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 div#nomesquadra{
     font-size:medium;
