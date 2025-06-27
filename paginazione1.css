@@ -269,7 +269,7 @@ div#cellapartita:hover {
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 5px;
-    padding: 2px 0px 0px 0px;
+    padding: 4px 0px 0px 0px;
     cursor: default;
 }   
 .box:hover {
@@ -298,7 +298,7 @@ div#nomesquadra{
 .boxsquadra {
     font-weight: bolder;
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     color: black;
     background-color: whitesmoke;
     width: 45%; /* 2 div per riga */
