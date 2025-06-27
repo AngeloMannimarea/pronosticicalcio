@@ -298,7 +298,7 @@ div#nomesquadra{
 .boxsquadra {
     font-weight: bolder;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     color: black;
     background-color: whitesmoke;
     width: 45%; /* 2 div per riga */
