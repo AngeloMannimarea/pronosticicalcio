@@ -373,7 +373,7 @@ a:active{
     margin-top:15px;
     background-color: transparent;
     border-radius: 10px;
-    min-width: 130px;
+    min-width: 250px;
     padding: 1px 1px 1px 1px;
     width: 78%;
     }
@@ -385,7 +385,7 @@ a:active{
     height: 22px;
     text-align: center;
     font-size: 14px;
-    min-width: 100px;
+    min-width: 250px;
     margin-top: 3px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -411,8 +411,8 @@ div#campionato {
     font-size: 11px;
     border: 2px solid whitesmoke;
     border-radius: 10px;
-    max-width: 130px;
-    min-width: 120px;
+    max-width: 250px;
+    min-width: 250px;
     min-height: 130px;
     box-shadow: 5px 5px 9px 4px black;
     margin-top: 5px;
@@ -423,16 +423,16 @@ div#campionato:hover {
     background-color: gold;
     color :black;
     text-align: center;
-    max-width: 130px;
-    min-width: 120px;
+    max-width: 250px;
+    min-width: 250px;
     border: 2px solid whitesmoke;
     border-radius: 10px;
     box-shadow: 2px 2px 3px 2px black;
     margin :5px 10px 25px 10px;
     }
 img.immagine-logo-seriea{
-    width: 60px;
-    height: 90px;
+    width: 100px;
+    height: 130px;
     min-width: 50px;
     margin-top: 1px;
     margin-bottom: auto;
@@ -443,12 +443,12 @@ img.immagine-logo-seriea{
     padding: 2px 2px 2px 2px;  
 }
 img.immagine-logo-seriea:hover {
-    width: 65px;
+    width: 1055px;
     min-width: 50px;
     margin-top: 0px;
     margin-bottom: 1px;
     border: 2px solid goldenrod;
-    transform: scale(1.25); /* ingrandimento al 150% */
+    transform: scale(1.35); /* ingrandimento al 150% */
     z-index: 1000;
     cursor:default;
 }    
@@ -486,7 +486,7 @@ div#cellapartita {
     margin-top: 10px;
     margin-right: 40%;
     margin-bottom: 30px;
-    margin-left: 60px;
+    margin-left: 120px;
     padding: 5px 10px 10px 10px;
     max-width: 500px;
     min-width: 500px;
@@ -500,7 +500,7 @@ div#cellapartita:hover {
     margin-top: 10px;
     margin-right: 40%;
     margin-bottom: 30px;
-    margin-left: 75px;
+    margin-left: 135px;
     padding: 5px 10px 10px 10px;
     border: 2px solid black;
     border-radius: 10px; 
