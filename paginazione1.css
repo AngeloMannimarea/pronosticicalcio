@@ -339,7 +339,7 @@ a:active{
     h1 {
         font-size: 35px;
     }
-    h2 { font-size: normal;}
+    h2 { font-size: 18px;}
     h3{
         font-size: 15px;
     }
@@ -449,7 +449,7 @@ img.immagine-logo-seriea:hover {
     margin-top: 0px;
     margin-bottom: 1px;
     border: 2px solid goldenrod;
-    transform: scale(1.20); /* ingrandimento al 150% */
+    transform: scale(1.15); /* ingrandimento al 150% */
     z-index: 1000;
     cursor:default;
 }    
