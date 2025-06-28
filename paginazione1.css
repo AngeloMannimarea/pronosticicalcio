@@ -457,10 +457,7 @@ h1.schedine{
     margin-left: 15%;
 }
 #classifica{
-        /* position:fixed; */
-        background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
-        /*background-color: #888888;
-        background-color: color-mix(in srgb, white 80%, black);*/
+        background-color: goldenrod;
         width: 350px;
         font-size: 16px;
         text-align: center;
@@ -470,8 +467,7 @@ h1.schedine{
         box-shadow: 3px 3px 4px 3px black;
 }
 #classifica:hover {
-        /* position:fixed; */
-        background-color: goldenrod;
+        background-color: golde;
         width: 350px;
         font-size: 16px;
         text-align: center;
