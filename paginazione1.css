@@ -339,6 +339,7 @@ a:active{
     h1 {
         font-size: 35px;
     }
+    h2 { font-size: normal;}
     h3{
         font-size: 15px;
     }
