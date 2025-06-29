@@ -47,8 +47,13 @@ h2{
     font-size: normal;
 }
 h3{
-     font-size: 14px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    margin-left: 1px; 
+    margin-right: 1px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 div#barradinavigazione {
     background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
