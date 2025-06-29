@@ -635,7 +635,7 @@ div#piedipagina:hover {
 }
 }
 @media only screen and (max-width: 600px ) {
-    body { background-image: url('sfondo2-calcio.jpg') } /* Percorso immagine */
+    body { background-image: url('sfondo-1280x800.jpg') } /* Percorso immagine */
     h1 {
         font-size: 27px;
     }
