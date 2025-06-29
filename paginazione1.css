@@ -336,6 +336,7 @@ a:active{
 /* adattamenti per schermi smartphone */
 
 @media only screen and (max-width: 800px ) {
+    body { background-image:linear-gradient(to bottom,blue,white,red); }
     h1 {
         font-size: 35px;
     }
