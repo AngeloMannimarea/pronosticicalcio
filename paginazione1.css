@@ -8,7 +8,7 @@ body{
     color:black;
     background-color: white;
     background-attachment: fixed;
-    background-image:"/home/angelo/html/sito/immagini/sfondo2-calcio"; /* Percorso immagine */
+    background-image:"/sfondo2-calcio"; /* Percorso immagine */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 1280px;
     
@@ -610,6 +610,7 @@ div#piedipagina:hover {
 }
 }
 @media only screen and (max-width: 600px ) {
+    body { background-image:"/sfondo2-calcio"; } /* Percorso immagine */
     h1 {
         font-size: 27px;
     }
