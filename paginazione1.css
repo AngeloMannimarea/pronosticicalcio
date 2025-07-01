@@ -755,7 +755,7 @@ div#campionato {
     min-height: 130px;
     box-shadow: 5px 5px 9px 4px black;
     margin-top: 5px;
-    padding: 0px 1px 1px 1px;
+    padding: 0px 1px 0px 1px;
     margin: 5px 10px 25px 10px;
     }
 div#campionato:hover {
