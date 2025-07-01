@@ -365,7 +365,7 @@ a:active{
 @media only screen and (max-width: 800px ) {
     
     body { 
-        color:black;
+        color: black;
         background-color: white;
         background-attachment: fixed;
         background-image: url('sfondo1300.jpg'); /* Percorso immagine */
@@ -442,7 +442,7 @@ div#contenitorecampionato {
     margin-top: 10px;
     }
 div#inizio {
-    color :black;
+    color: black;
     background-color: goldenrod;
     text-align: center;
     min-width: 250px;
@@ -452,7 +452,7 @@ div#inizio {
     padding: 3px 1px 2px 5px;
 }
 div#campionato {
-    color :black;
+    color:black;
     background-color: goldenrod;
     text-align: center;
     font-size: 11px;
@@ -464,7 +464,7 @@ div#campionato {
     box-shadow: 5px 5px 9px 4px black;
     margin-top: 5px;
     padding: 12px 3px 3px 3px;
-    margin :5px 10px 25px 10px;
+    margin: 5px 10px 25px 10px;
     }
 div#campionato:hover {
     background-color: gold;
