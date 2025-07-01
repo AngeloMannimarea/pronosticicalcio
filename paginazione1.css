@@ -456,7 +456,7 @@ div#inizio {
   background-size: cover;        /* Copre tutto il div */
   background-position: center;   /* Centra l'immagine */
   width: 250px;
-  height: 240px;
+  height: 235px;
   border-radius: 10px; 
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;  
@@ -471,7 +471,7 @@ div#campionato {
     border-radius: 10px;
     max-width: 250px;
     min-width: 250px;
-    min-height: 130px;
+    min-height: 235px;
     box-shadow: 5px 5px 9px 4px black;
     margin-top: 5px;
     padding: 1px 1px 1px 1px;
