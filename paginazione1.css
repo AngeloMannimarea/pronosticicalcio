@@ -733,6 +733,10 @@ div#inizio {
   background-position: center;   /* Centra l'immagine */
   width: 120px;
   height: 140px;
+  border-radius: 10px; 
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;  
+  border: 1px solid black; 
 }
       
 div#campionato {
