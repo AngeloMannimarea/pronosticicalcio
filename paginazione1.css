@@ -55,6 +55,7 @@ h3{
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 div#barradinavigazione {
     background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
     display: flex;
@@ -103,6 +104,13 @@ div#inizio {
     border: 2px solid whitesmoke;
     border-radius: 10px;
     padding: 3px 1px 2px 5px;
+}
+.sfondo {
+  background-image: url('immagine.jpg');
+  background-size: cover;        /* Copre tutto il div */
+  background-position: center;   /* Centra l'immagine */
+  width: 180px;
+  height: 150px;
 }
 div#campionato {
     color :black;
