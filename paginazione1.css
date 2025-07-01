@@ -351,7 +351,15 @@ a:active{
 /* adattamenti per schermi smartphone */
 
 @media only screen and (max-width: 800px ) {
-    body { background-image:linear-gradient(to bottom,blue,white,red); }
+    
+    body { 
+        color:black;
+        background-color: white;
+        background-attachment: fixed;
+        background-image: url('sfondo3coppegrande800px.jpg'); /* Percorso immagine */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* background-image:linear-gradient(to bottom,blue,white,red); */
+    }
     h1 {
         font-size: 35px;
     }
