@@ -725,7 +725,7 @@ div#inizio {
     min-height: 25px;
     border: 2px solid whitesmoke;
     border-radius: 10px;
-    padding: 3px 1px 2px 5px;
+    padding: 1px 1px 2px 5px;
 } 
 .sfondo {
   background-image: url('sfondocampionato.jpg');
