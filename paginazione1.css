@@ -759,7 +759,7 @@ div#campionato {
     margin: 5px 10px 25px 10px;
     }
 div#campionato:hover {
-    background-color: white;
+    background-color: goldenrod;
     color: black;
     text-align: center;
     max-width: 120px;
