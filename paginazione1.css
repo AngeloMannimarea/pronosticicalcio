@@ -647,7 +647,7 @@ div#piedipagina:hover {
         color:black;
         background-color: white;
         background-attachment: fixed;
-        background-image: url('sfondo400x800.jpg'); /* Percorso immagine */
+        background-image: url('sfondo800x1200.jpg'); /* Percorso immagine */
         font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
     h1 {
