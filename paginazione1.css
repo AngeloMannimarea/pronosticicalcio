@@ -682,9 +682,11 @@ div#piedipagina:hover {
 }
     h2{
         font-size: 14px;
+        font-weight: bolder;
     }
     h3{
         font-size: 13px;
+        font-weight: bolder;
     }
     img.immagine-logo-seriea{
     border: 2px solid goldenrod;
