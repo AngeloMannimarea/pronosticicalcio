@@ -110,7 +110,7 @@ div#inizio {
   background-size: cover;        /* Copre tutto il div */
   background-position: center;   /* Centra l'immagine */
   width: 180px;
-  height: 150px;
+  height: 160px;
 }
 div#campionato {
     color :black;
@@ -726,7 +726,15 @@ div#inizio {
     border: 2px solid whitesmoke;
     border-radius: 10px;
     padding: 3px 1px 2px 5px;
-}    
+} 
+.sfondo {
+  background-image: url('sfondocampionato.jpg');
+  background-size: cover;        /* Copre tutto il div */
+  background-position: center;   /* Centra l'immagine */
+  width: 120px;
+  height: 140px;
+}
+      
 div#campionato {
     color: black;
     background-color: goldenrod;
