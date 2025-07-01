@@ -732,7 +732,7 @@ div#inizio {
   background-size: cover;        /* Copre tutto il div */
   background-position: center;   /* Centra l'immagine */
   width: 120px;
-  height: 145px;
+  height: 140px;
 }
       
 div#campionato {
@@ -747,7 +747,7 @@ div#campionato {
     min-height: 130px;
     box-shadow: 5px 5px 9px 4px black;
     margin-top: 5px;
-    padding: 6px 3px 3px 2px;
+    padding: 1px 3px 3px 2px;
     margin: 5px 10px 25px 10px;
     }
 div#campionato:hover {
