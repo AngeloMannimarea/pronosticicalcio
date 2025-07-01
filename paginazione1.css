@@ -456,14 +456,14 @@ div#inizio {
   background-size: cover;        /* Copre tutto il div */
   background-position: center;   /* Centra l'immagine */
   width: 250px;
-  height: 250px;
+  height: 240px;
   border-radius: 10px; 
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;  
   border: 1px solid black;  
 }    
 div#campionato {
-    color:black;
+    color: black;
     background-color: goldenrod;
     text-align: center;
     font-size: 11px;
