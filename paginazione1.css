@@ -110,7 +110,7 @@ div#inizio {
   background-size: cover;        /* Copre tutto il div */
   background-position: center;   /* Centra l'immagine */
   width: 180px;
-  height: 160px;
+  height: 165px;
   border-radius: 10px; 
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;  
@@ -122,7 +122,7 @@ div#campionato {
     text-align: center;
     font-size: 12px;
     min-width: 180px;
-    min-height: 160px;
+    min-height: 165px;
     border: 2px solid whitesmoke;
     border-radius: 10px;
     margin: 5px 10px 25px 10px;
@@ -451,6 +451,17 @@ div#inizio {
     border-radius: 10px;
     padding: 3px 1px 2px 5px;
 }
+.sfondo {
+  background-image: url('sfondocampionato.jpg');
+  background-size: cover;        /* Copre tutto il div */
+  background-position: center;   /* Centra l'immagine */
+  width: 250px;
+  height: 250px;
+  border-radius: 10px; 
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;  
+  border: 1px solid black;  
+}    
 div#campionato {
     color:black;
     background-color: goldenrod;
