@@ -33,19 +33,30 @@
                 margin-top: 20px;
             }
             table {
-                width: 50%;
-                border-collapse: collapse;
+                border-collapse: separate;  /* necessario per border-radius */
+                border-spacing: 2px;        /* distanza tra le celle */
             }
-            th, td {
-                color:goldenrod;
-                border: 1px solid #999;
-                padding: 6px 10px;
+            td {
+                border: 1px solid black;
+                border-radius: 15px;
+                width: 30px;
+                height: 30px;
                 text-align: center;
-                background-color: black;
+                padding: 4px;
             }
-            th {
-                background-color: black;
+            tr:nth-child(even) {
+              /* background-color:color-mix(in hsl shorter hue, color percentage, color percentage);  */
+              background-color: black;   /* nero */
+              font-weight: bold; 
+              color: white;            /* testo bianco per contrasto */
             }
+            tr:nth-child(odd) {
+              /* background-color:color-mix(in hsl shorter hue, color percentage, color percentage);  */
+              background-color: white; /* bianco */
+              font-weight: bold;
+              color: black;            /* testo nero */
+            }
+            
             a{ 
                 font-weight: bold;
                 font-size: 20px;
