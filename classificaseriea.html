@@ -33,23 +33,23 @@
                 overflow-x: auto;
                 margin-top: 20px;
             }
+            
             table {
-                width: 70%;
                 border-collapse: collapse;
             }
-            /*th, */td {
-                color: white;
-                border-radius: 15px;
-                padding: 6px 10px;
-                text-align: center;
-                background-color: black;
+            td {
+              border: 1px solid #000;
+              width: 30px;
+              height: 30px;
+              text-align: center;
             }
-            th {
-                color: black;
-                border-radius: 15px;
-                padding: 6px 10px;
-                text-align: center;
-                background-color: white;
+            tr:nth-child(even) {
+              background-color: #000; /* nero */
+              color: #fff;            /* testo bianco per contrasto */
+            }
+            tr:nth-child(odd) {
+              background-color: #fff; /* bianco */
+              color: #000;            /* testo nero */
             }
             a{ 
                 font-weight: bold;
