@@ -364,6 +364,18 @@ a:active{
     color:aquamarine;
 }
 /* gestione dei dei dati di forma dei club  */
+div#cellaclub {
+     background-color:color-mix(in hsl shorter hue, color percentage, color percentage); 
+    /* background-color: #a489fa; */
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+    margin-left: 10px;
+    padding: 5px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 9px 4px black;
+}
 .contenitoreclub {
     display: flex;
     flex-wrap: wrap; /* Permette di andare a capo se serve */
