@@ -370,12 +370,22 @@ div#club {
     padding: 10px;
 }
 div#scudettoclub {
+    position: left;
     background-color: red;
     margin-left: 20px;
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
     
+}
+div#nomeclub{
+    font-size:medium;
+    width: 100px;
+    height: 35px;
+    background-color: green;
+    padding: 0px 0px 0px 0px;
+    margin-left: 20px;  
+    margin-top:0px;
 }
 
 
