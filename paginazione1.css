@@ -364,7 +364,53 @@ a:active{
     color:aquamarine;
 }
 /* gestione dei dei dati di forma dei club  */
-
+.contenitoreclub {
+    display: flex;
+    flex-wrap: wrap; /* Permette di andare a capo se serve */
+}
+.boxclub {
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    background-color: whitesmoke;
+    width: 20%; 
+    height: 30px;
+    min-width: 190px; 
+    max-width: 240px;
+    margin-left: 38px;
+    margin-top: 2px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px 0px 0px 0px;
+    cursor: default;
+}   
+.boxclub:hover {
+    color: rgb(119, 91, 20);
+    border: 2px solid gold;
+    cursor: default;
+} 
+.boxsquadraclub {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    background-color: whitesmoke;
+    width: 45%; /* 2 div per riga */
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 1px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    padding: 1px 1px 5px 5px;
+    cursor: default;
+}  
+.boxsquadraclub:hover {
+    color: rgb(119, 91, 20);
+    border: 2px solid gold;
+    cursor: default;
+}  
 div#club {
     width: 600px;
     background-color: white;
