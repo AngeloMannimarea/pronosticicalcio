@@ -368,6 +368,15 @@ div#club {
     border-radius: 20px;
     
 }
+div#scudettoclub {
+    background-color: whitesmoke;
+    float:left;
+    margin-left: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
 
 
 
