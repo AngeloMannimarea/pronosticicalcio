@@ -404,7 +404,7 @@ div#attributo{
     border-radius: 10px
 }
 div#valoriattributo{
-    position: right;
+    position: left;
     font-size: 18px;
     width: 200px;
     height: 25px;
