@@ -366,26 +366,25 @@ div#club {
     background-color: white;
     border: 2px solid black;
     border-radius: 20px;
-    margin: 50px 250px 400px 250px;
+    margin: 50px 300px 200px 300px;
     padding: 10px;
 }
 div#scudettoclub {
+    width: 150px;
     position: left;
     background-color: red;
-    margin-left: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    
+    padding: 5px;
+    margin-left: 225px;
 }
 div#nomeclub{
-    font-size:medium;
+    position: left;
+    font-size: 28px;
     width: 100px;
-    height: 35px;
+    height: 50px;
     background-color: green;
     padding: 0px 0px 0px 0px;
-    margin-left: 20px;  
-    margin-top:0px;
+    margin-left: 250px;  
+    margin-top: 10px;
 }
 
 
