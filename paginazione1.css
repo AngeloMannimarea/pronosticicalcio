@@ -56,7 +56,10 @@ h3{
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+testoabbributo {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 div#barradinavigazione {
     background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
     display: flex;
