@@ -37,6 +37,7 @@ h1.schedine {
     margin-left: 33%;
 }
 h2{  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     /*background-color: whitesmoke;*/
     text-align: center;
@@ -379,7 +380,7 @@ div#scudettoclub {
 div#nomeclub{
     position: left;
     font-size: 28px;
-    width: 100px;
+    width: 150px;
     height: 50px;
     background-color: green;
     padding: 0px 0px 0px 0px;
