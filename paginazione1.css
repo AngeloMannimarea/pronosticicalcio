@@ -409,7 +409,7 @@ div#valoriattributo{
     width: 200px;
     height: 25px;
     background-color: blue;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
     margin-left: 100px;  
     margin-top: 20px;
     border: 1px solid black;
