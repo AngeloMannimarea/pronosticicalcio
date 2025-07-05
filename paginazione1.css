@@ -897,7 +897,7 @@ div#cellapartita:hover {
     box-sizing: border-box;
     border: 1px solid black;
     border-radius: 5px;
-    padding: 6px 0px 1px 0px;
+    padding: 4px 0px 1px 0px;
     cursor: default;
 }   
 div#scudetto {
