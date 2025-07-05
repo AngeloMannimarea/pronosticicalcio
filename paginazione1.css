@@ -394,7 +394,6 @@ div#nomeclub{
     margin-top: 10px;
 }
 div#attributo{
-    position: top;
     font-size: 18px;
     width: 200px;
     height: 25px;
@@ -406,7 +405,7 @@ div#attributo{
     border-radius: 20px
 }
 div#valoriattributo{
-    position: left;
+    position: right;
     font-size: 18px;
     width: 200px;
     height: 25px;
