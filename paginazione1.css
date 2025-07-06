@@ -430,6 +430,7 @@ div#cellaclub {
     cursor: default;
 } 
 .boxsquadraclub {
+    min-width: 40px; 
     font-weight: bolder;
     text-align: center;
     font-size: 13px;
