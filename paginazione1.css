@@ -449,6 +449,16 @@ div#cellaclub {
     border: 2px solid gold;
     cursor: default;
 }  
+div#nomesquadraclub{
+    font-size:medium;
+    min-width: 50px;
+    max-width: 91%;
+    height: 25px;
+    background-color: gray;
+    padding: 0px 0px 0px 0px;
+    margin-left: 5%;
+    margin-top:0px;
+}
 
 
 /* adattamenti per schermi smartphone */
