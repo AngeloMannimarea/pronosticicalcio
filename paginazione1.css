@@ -1080,9 +1080,10 @@ div#scudettoclub {
     display: none;
 }
 div#nomeclub{
-    position: left;
+    position: top;
     font-size: 18px;
-    width: 150px;
+    min-width: 100px;
+    max-width: 100px;
     height: 30px;
     background-color: white;
     padding: 0px 0px 2px 0px;
@@ -1092,6 +1093,7 @@ div#nomeclub{
 div#cellaclub {
     /* background-color:color-mix(in hsl shorter hue, color percentage, color percentage); */
     max-width: 300px;
+    min-width: 300px;
     background-color: red;
     margin-top: 10px;
     margin-right: 50px;
