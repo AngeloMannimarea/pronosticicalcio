@@ -1115,8 +1115,8 @@ div#cellaclub {
     background-color: blue;
     width: 20%; 
     height: 20px;
-    min-width: 40px; 
-    max-width: 60px;
+    min-width: 100px; 
+    max-width: 100px;
     margin-left: 30px;
     margin-top: 2px;
     box-sizing: border-box;
