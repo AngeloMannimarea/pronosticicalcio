@@ -1130,14 +1130,14 @@ div#cellaclub {
     cursor: default;
 } 
 .boxsquadraclub {
-    min-width: 40px; 
-    max-width: 40px;
+    min-width: 230px; 
+    max-width: 230px;
     font-weight: bolder;
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
     color: black;
     background-color: yellow;
-    width: 22%; /* 2 div per riga */
+    /* width: 22%;  2 div per riga */
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 10px;
@@ -1153,9 +1153,9 @@ div#cellaclub {
     cursor: default;
 }  
 div#nomesquadraclub{
-    font-size:medium;
-    min-width: 50px;
-    max-width: 91%;
+    min-width: 170px;
+    max-width: 80%;
+    font-size: 18px;
     height: 25px;
     background-color: gray;
     padding: 0px 0px 0px 0px;
