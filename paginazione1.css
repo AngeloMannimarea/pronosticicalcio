@@ -392,7 +392,8 @@ div#nomeclub{
     margin-top: 5px;
 }
 div#cellaclub {
-    background-color:color-mix(in hsl shorter hue, color percentage, color percentage); 
+    /* background-color:color-mix(in hsl shorter hue, color percentage, color percentage); */
+    background-color: red;
     margin-top: 10px;
     margin-right: 50px;
     margin-bottom: 35px;
@@ -409,7 +410,7 @@ div#cellaclub {
     text-align: center;
     font-size: 12px;
     color: black;
-    background-color: whitesmoke;
+    background-color: blue;
     width: 20%; 
     height: 20px;
     min-width: 40px; 
@@ -432,7 +433,7 @@ div#cellaclub {
     text-align: center;
     font-size: 13px;
     color: black;
-    background-color: whitesmoke;
+    background-color: yellow;
     width: 22%; /* 2 div per riga */
     box-sizing: border-box;
     border: 2px solid black;
