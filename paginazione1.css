@@ -413,9 +413,9 @@ div#attributoclub {
     max-width: 75px;
     float:left;
     margin-left: 5%;
-    padding: 5px;
+    padding: 0px;
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 div#valoreattributoclub {
     font-size:medium;
@@ -423,9 +423,9 @@ div#valoreattributoclub {
     max-width: 25px;
     height: 25px;
     background-color: blue;
-    padding: 7px 0px 0px 0px;
+    padding: 1px 0px 0px 0px;
     margin-left: 5%;
-    margin-top:0px;
+    margin-top:5px;
 }
 /* GESTIONE DEI COLLEGAMENTI LINK */
 a{ 
