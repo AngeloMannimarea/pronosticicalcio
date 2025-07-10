@@ -409,7 +409,7 @@ div#cellaclub {
 }  
 div#attributoclub {
     background-color: red;
-    min-width: 170px
+    min-width: 70px;
     float:left;
     margin-left: 5%;
     padding: 1px;
