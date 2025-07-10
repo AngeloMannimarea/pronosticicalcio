@@ -60,6 +60,10 @@ testoabbributo {
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* ******************************************************************* */
+/* barra di navigazione delle schedine e della presentazione del sito. */
+/* ******************************************************************* */
 div#barradinavigazione {
     background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
     display: flex;
@@ -93,6 +97,9 @@ div#barradinavigazione {
     border: 1px solid white;
     box-shadow: 2px 2px 3px 2px black;
 }
+/* ******************************************************************* */
+/* Barra di selezione dei campionati e dei pronostici affini.          */
+/* ******************************************************************* */
 div#contenitorecampionato {
     clear:both;
     display: flex;
@@ -167,6 +174,9 @@ img.immagine-logo-seriea:hover {
     z-index: 1000;
     cursor: pointer;
 }
+/* ******************************************************************* */
+/* Gestione della paginazione della fine della pagina web              */
+/* ******************************************************************* */
 div#piedipagina { 
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
