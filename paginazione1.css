@@ -411,13 +411,13 @@ div#attributoclub {
     background-color: red;
     min-width: 75px;
     max-width: 75px;
-    float:left;
     margin-left: 5%;
     padding: 0px;
     margin-bottom: 0px;
     margin-top: 5px;
 }
 div#valoreattributoclub {
+    float: right;
     font-size:medium;
     min-width: 40px;
     max-width: 40px;
