@@ -989,7 +989,9 @@ img.immagine-logo-seriea:hover {
     z-index: 1000;
     cursor:default;
 }    
-
+div#immagineclub {
+    display: none;
+}
 div#immagineclassifica {
     display:none;
 }
@@ -1133,6 +1135,64 @@ div#nomesquadra{
     font-weight: bold;
 
 }
+ div#cellaclub {
+    background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
+    /* background-color: #ad94ff; */
+    margin-top: 25px;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 5px 10px 10px 10px;
+    max-width: 250px;
+    min-width: 250px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 9px 4px black;
+}   
+.contenitoreclub {
+    display: flex;
+    flex-wrap: wrap; /* Permette di andare a capo se serve */
+}
+.boxclub {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    /*background-color: #D4CB92;*/
+    background-color:  rgb(211, 206, 206);
+    background-color: yellow;
+    min-width: 230px;
+    max-width: 230px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-left: 12px;
+    margin-bottom: 2px;
+    padding: 5px;
+    cursor: default;
+}  
+div#attributoclub {
+    background-color: red;
+    float:left;
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    font-size: 15px;
+    min-width: 75px;
+    max-width: 75px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+div#valoreattributoclub {
+    padding: 0px 0px 0px 0px;
+    margin-top:0px;
+    font-size: 14px;
+    min-width: 30px;
+    max-width: 30px;
+    background-color: blue;
+    padding: 0px 0px 0px 0px;
+}    
 div#piedipagina{
     display: none;
 }
