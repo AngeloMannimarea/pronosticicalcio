@@ -788,7 +788,7 @@ div#cellaclub {
     color: black;
     /*background-color: #D4CB92;*/
     background-color:  rgb(211, 206, 206);
-    background-color: whitesmoke;
+    background-color: yellow;
     min-width: 230px;
     max-width: 230px;
     box-sizing: border-box;
@@ -801,7 +801,7 @@ div#cellaclub {
     cursor: default;
 }  
 div#attributoclub {
-    background-color: whitesmoke;
+    background-color: red;
     float:left;
     padding: 2px;
     margin-bottom: 0px;
@@ -818,7 +818,7 @@ div#valoreattributoclub {
     font-size: 14px;
     min-width: 30px;
     max-width: 30px;
-    background-color: whitesmoke;
+    background-color: blue;
     padding: 0px 0px 0px 0px;
     
 }
