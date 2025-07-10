@@ -813,16 +813,14 @@ div#attributoclub {
     margin-top: 5px;
 }
 div#valoreattributoclub {
-    margin-left: 10px;
     padding: 0px 0px 0px 0px;
     margin-top:0px;
     font-size: 14px;
     min-width: 30px;
     max-width: 30px;
-    height: 20px;
     background-color: whitesmoke;
     padding: 0px 0px 0px 0px;
-    margin-top: 5px;
+    
 }
     
 div#piedipagina { 
