@@ -215,6 +215,9 @@ p {
     font-size: normal;
     text-align: center;
 }
+/* ******************************************************************* */
+/* Intestazine logo e classifica dei campionati                        */
+/* ******************************************************************* */
 div#immagineclassifica {
     background-color: white;
     width: 200px;
@@ -255,6 +258,9 @@ div#immagineclassificabundesliga {
         border: 1px solid black;
         box-shadow: 1px 1px 2px 1px black;
 }
+/* ******************************************************************* */
+/* Gestione della cella del pronostico                                 */
+/* ******************************************************************* */
 div#cellapartita {
      background-color:color-mix(in hsl shorter hue, color percentage, color percentage); 
     /* background-color: #a489fa; */
@@ -357,7 +363,7 @@ div#nomesquadra{
     color: rgb(119, 91, 20);
     border: 2px solid gold;
     cursor: default;
-}  
+} 
 a{ 
     font-weight: bold;
     font-size: 14px;
@@ -374,7 +380,7 @@ a:active{
     color:aquamarine;
 }
 
-/* adattamenti per schermi smartphone */
+/* adattamenti per schermi tablet   */
 
 @media only screen and (max-width: 800px ) {
     
@@ -679,6 +685,7 @@ div#piedipagina:hover {
     padding: 5px 10px 5px 10px;        
 }
 }
+/* adattamenti, per schermi smartphone */
 @media only screen and (max-width: 600px ) {
     body { 
         color:black;
