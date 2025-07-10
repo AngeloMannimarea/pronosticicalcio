@@ -810,12 +810,10 @@ div#attributoclub {
     font-size: 15px;
     min-width: 75px;
     max-width: 75px;
-    margin-left: 5%;
+    margin-left: 5px;
     margin-top: 5px;
 }
 div#valoreattributoclub {
-    min-width: 170px;
-    max-width: 80%;
     margin-left: 10px;
     padding: 0px 0px 0px 0px;
     margin-top:0px;
