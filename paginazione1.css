@@ -412,7 +412,7 @@ div#cellaclub {
     text-align: center;
     font-size: 13px;
     color: black;
-    background-color: yellow;
+    background-color: whitesmoke;
     width: 18%; /* 6 div per riga */
     box-sizing: border-box;
     border: 2px solid black;
@@ -425,7 +425,7 @@ div#cellaclub {
 }  
 div#attributoclub {
     float: left;
-    background-color: red;
+    background-color: whitesmoke;
     min-width: 75px;
     max-width: 75px;
     margin-left: 5%;
@@ -438,7 +438,7 @@ div#valoreattributoclub {
     min-width: 30px;
     max-width: 30px;
     height: 20px;
-    background-color: blue;
+    background-color: whitesmoke;
     padding: 0px 0px 0px 0px;
     margin-left: 70%;
     margin-top: 5px;
