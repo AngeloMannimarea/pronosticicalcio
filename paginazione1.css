@@ -421,8 +421,8 @@ div#attributoclub {
 }
 div#valoreattributoclub {
     font-size: 14px;
-    min-width: 40px;
-    max-width: 40px;
+    min-width: 30px;
+    max-width: 30px;
     height: 20px;
     background-color: blue;
     padding: 0px 0px 0px 0px;
