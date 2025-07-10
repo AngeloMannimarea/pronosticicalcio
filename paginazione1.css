@@ -364,6 +364,60 @@ div#nomesquadra{
     border: 2px solid gold;
     cursor: default;
 } 
+/* ******************************************************************* */
+/* Gestione delle statistiche del club                                 */
+/* ******************************************************************* */
+div#cellaclub { 
+    background-color:color-mix(in hsl shorter hue, color percentage, color percentage); 
+    /* background-color: #a489fa; */
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+    margin-left: 10px;
+    padding: 5px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 9px 4px black;
+}
+.contenitoreclub {
+    display: flex;
+    flex-wrap: wrap; /* Permette di andare a capo se serve */
+}
+.boxclub {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    background-color: whitesmoke;
+    width: 45%; /* 2 div per riga */
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 1px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    padding: 1px 1px 5px 5px;
+    cursor: default;
+}  
+div#attributoclub {
+    background-color: whitesmoke;
+    float:left;
+    margin-left: 5%;
+    padding: 1px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+div#valoreattributoclub {
+    font-size:medium;
+    min-width: 170px;
+    max-width: 91%;
+    height: 35px;
+    background-color: whitesmoke;
+    padding: 0px 0px 0px 0px;
+    margin-left: 5%;
+    margin-top:0px;
+}
+/* GESTIONE DEI COLLEGAMENTI LINK */
 a{ 
     font-weight: bold;
     font-size: 14px;
