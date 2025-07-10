@@ -409,8 +409,8 @@ div#cellaclub {
 }  
 div#attributoclub {
     background-color: red;
-    min-width: 50px;
-    max-width: 50px;
+    min-width: 75px;
+    max-width: 75px;
     float:left;
     margin-left: 5%;
     padding: 1px;
@@ -420,7 +420,7 @@ div#attributoclub {
 div#valoreattributoclub {
     font-size:medium;
     min-width: 25px;
-    max-width: 25x;
+    max-width: 25px;
     height: 25px;
     background-color: blue;
     padding: 7px 0px 0px 0px;
