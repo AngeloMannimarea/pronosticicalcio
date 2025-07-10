@@ -378,7 +378,7 @@ div#immagineclub {
     border-radius: 30px;
 }
 .formaclub {
-    width: 250px;
+    width: 270px;
     background-color: rgb(211, 206, 206);
     background-color: whitesmoke;
     border-radius: 10px;
@@ -386,7 +386,7 @@ div#immagineclub {
     margin-top: 5px;
     margin-left: 45px;
     margin-bottom: 1px;
-    font-size: 18px;
+    font-size: 16px;
     color: black;
     text-align: center;
     cursor: default;
