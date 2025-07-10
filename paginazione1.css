@@ -1135,6 +1135,20 @@ div#nomesquadra{
     font-weight: bold;
 
 }
+.formaclub {
+    width: 270px;
+    background-color: rgb(211, 206, 206);
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid black; 
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    cursor: default;
+}    
  div#cellaclub {
     background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
     /* background-color: #ad94ff; */
