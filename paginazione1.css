@@ -408,6 +408,7 @@ div#cellaclub {
     cursor: default;
 }  
 div#attributoclub {
+    float: left;
     background-color: red;
     min-width: 75px;
     max-width: 75px;
@@ -417,7 +418,7 @@ div#attributoclub {
     margin-top: 5px;
 }
 div#valoreattributoclub {
-    float: right;
+    
     font-size:medium;
     min-width: 40px;
     max-width: 40px;
