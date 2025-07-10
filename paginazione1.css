@@ -397,7 +397,7 @@ div#cellaclub {
     font-size: 13px;
     color: black;
     background-color: yellow;
-    width: 15%; /* 6 div per riga */
+    width: 16%; /* 6 div per riga */
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 10px;
@@ -419,8 +419,8 @@ div#attributoclub {
 }
 div#valoreattributoclub {
     font-size:medium;
-    min-width: 25px;
-    max-width: 25px;
+    min-width: 40px;
+    max-width: 40px;
     height: 25px;
     background-color: blue;
     padding: 1px 0px 0px 0px;
