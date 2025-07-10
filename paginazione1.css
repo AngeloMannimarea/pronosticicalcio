@@ -425,6 +425,7 @@ div#cellaclub {
 }  
 div#attributoclub {
     float: left;
+    font-size: 13px;
     background-color: whitesmoke;
     min-width: 75px;
     max-width: 75px;
