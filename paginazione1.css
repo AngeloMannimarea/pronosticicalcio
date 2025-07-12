@@ -414,9 +414,7 @@ div#cellaclub {
     flex-wrap: wrap; /* Permette di andare a capo se serve */
 }
 .boxclub {
-    font-weight: normal;
     text-align: center;
-    color: black;
     background-color: whitesmoke;
     width: 18%; /* 6 div per riga */
     box-sizing: border-box;
