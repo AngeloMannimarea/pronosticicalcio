@@ -1193,8 +1193,8 @@ div#nomesquadra{
 div#attributoclub {
     background-color: whitesmoke;
     float:left;
-    padding: 0px;
-    margin-bottom: 0px; 
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 5px; 
     margin-top: 3px;
     font-size: 15px;
     min-width: 75px;
