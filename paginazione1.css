@@ -799,13 +799,13 @@ div#cellaclub {
     margin-top: 2px;
     margin-left: 12px;
     margin-bottom: 2px;
-    padding: 5px;
+    padding: 1px;
     cursor: default;
 }  
 div#attributoclub {
     background-color: whitesmoke;
     float:left;
-    padding: 2px;
+    padding: 0px;
     margin-bottom: 0px;
     margin-top: 3px;
     font-size: 17px;
