@@ -764,6 +764,18 @@ div#immagineclub {
     border: 3px solid goldenrod;
     border-radius: 30px;
 }
+ div#nomeclub {
+    width: 150px;
+    background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    cursor: default;
+    margin: 20px 10px 20px 45%;
+    padding: 2px;
+    
+}   
 .formaclub {
     width: 270px;
     background-color: rgb(211, 206, 206);
@@ -1159,7 +1171,18 @@ div#nomesquadra{
     padding: 10px 10px 10px 10px;
     border: 3px solid goldenrod;
     border-radius: 30px; 
- }    
+ } 
+  div#nomeclub {
+    width: 150px;
+    background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    cursor: default;
+    margin: 10px 10px 10px 100px;
+    padding: 2px;
+}  
 .formaclub {
     width: 240px;
     background-color: rgb(211, 206, 206);
