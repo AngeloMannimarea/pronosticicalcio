@@ -270,7 +270,7 @@ div#immagineclassificabundesliga {
 /* Gestione della cella del pronostico                                 */
 /* ******************************************************************* */
 div#cellapartita {
-     background-color:color-mix(in hsl shorter hue, color percentage, color percentage); 
+     background-color:color-mix(in hsl shorter hue, white 30%, blue 10%); 
     /* background-color: #a489fa; */
     margin-top: 10px;
     margin-right: 50px;
