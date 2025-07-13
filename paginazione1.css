@@ -282,9 +282,10 @@ div#cellapartita {
     box-shadow: 5px 5px 9px 4px black;
 }
 div#cellapartita:hover {
+    background-color:color-mix(in hsl shorter hue, white 80%, blue 15%);
     font-weight: bold;
     margin-left: 20px;
-    background-color: #cacaca;  
+    /* background-color: #cacaca; */ 
     margin-top: 10px;
     margin-right: 30px;
     margin-bottom: 35px;
