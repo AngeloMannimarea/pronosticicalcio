@@ -379,7 +379,7 @@ div#immagineclub {
     background-color: white;
     width: 150px;
     margin: 10px auto 20px 41%;
-    padding: 10px 10px 10px 10px;
+    padding: auto;
     border: 3px solid goldenrod;
     border-radius: 30px;
 }
