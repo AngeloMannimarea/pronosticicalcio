@@ -386,6 +386,7 @@ div#immagineclub {
 div#nomeclub {
     width: 150px;
     background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
     font-weight: bold;
     text-align: center;
