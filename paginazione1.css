@@ -991,9 +991,8 @@ img.immagine-logo-seriea:hover {
     z-index: 1000;
     cursor:default;
 }    
-div#immagineclub {
-    display: none;
-}
+
+
 div#immagineclassifica {
     display:none;
 }
@@ -1139,7 +1138,16 @@ div#nomesquadra{
 }
 /* ******************************************************************* */
 /* Gestione delle statistiche del club                                 */
-/* ******************************************************************* */    
+/* ******************************************************************* */
+ div#immagineclub {
+    /* display: none;   */
+    background-color: white;
+    width: 150px;
+    margin: 5px auto 10px 70px;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid goldenrod;
+    border-radius: 30px; 
+ }    
 .formaclub {
     width: 240px;
     background-color: rgb(211, 206, 206);
