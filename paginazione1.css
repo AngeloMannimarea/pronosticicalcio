@@ -256,7 +256,7 @@ div#immagineclassificabundesliga {
         box-shadow: 3px 3px 4px 3px black;
 }
 #classifica:hover {
-        background-color:color-mix(in hsl shorter hue, white 60%, blue 15%)
+        background-color:color-mix(in hsl shorter hue, white 60%, blue 15%);
         width: 350px; 
         font-size: 16px;
         text-align: center;
@@ -412,7 +412,7 @@ div#nomeclub {
     cursor: default;
 }
 div#cellaclub { 
-    background-color:color-mix(in hsl shorter hue, white 20%, blue 15%)
+    background-color:color-mix(in hsl shorter hue, white 20%, blue 15%);
     margin-top: 10px; 
     margin-right: 50px;
     margin-bottom: 35px;
@@ -423,7 +423,7 @@ div#cellaclub {
     box-shadow: 5px 5px 9px 4px black;
 }
 div#cellaclub:hover { 
-    background-color:color-mix(in hsl shorter hue, white 60%, blue 15%)
+    background-color:color-mix(in hsl shorter hue, white 60%, blue 15%);
     margin-top: 10px; 
     margin-right: 40px;
     margin-bottom: 35px;
