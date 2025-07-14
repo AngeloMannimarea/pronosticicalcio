@@ -422,6 +422,17 @@ div#cellaclub {
     border-radius: 10px; 
     box-shadow: 5px 5px 9px 4px black;
 }
+div#cellaclub:hover { 
+    background-color:color-mix(in hsl shorter hue, white 60%, blue 15%)
+    margin-top: 10px; 
+    margin-right: 40px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    padding: 5px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 9px 4px black;
+}
 .contenitoreclub {
     display: flex;
     flex-wrap: wrap; /* Permette di andare a capo se serve */
