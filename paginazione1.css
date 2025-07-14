@@ -256,8 +256,8 @@ div#immagineclassificabundesliga {
         box-shadow: 3px 3px 4px 3px black;
 }
 #classifica:hover {
-        background-color: goldenrod;
-        width: 350px;
+        background-color:color-mix(in hsl shorter hue, white 60%, blue 15%)
+        width: 350px; 
         font-size: 16px;
         text-align: center;
         color: blue;
@@ -412,9 +412,8 @@ div#nomeclub {
     cursor: default;
 }
 div#cellaclub { 
-    background-color:color-mix(in hsl shorter hue, color percentage, color percentage); 
-    /* background-color: #a489fa; */
-    margin-top: 10px;
+    background-color:color-mix(in hsl shorter hue, white 20%, blue 15%)
+    margin-top: 10px; 
     margin-right: 50px;
     margin-bottom: 35px;
     margin-left: 10px;
@@ -771,10 +770,10 @@ div#immagineclub {
 }
  div#nomeclub {
     width: 150px;
-    background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
+    background-color:color-mix(in hsl shorter hue, color percentage, color percentage);  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
-    font-weight: bold;
+    font-size: 35px; 
+    font-weight: bold; 
     text-align: center;
     cursor: default;
     margin: 20px 10px 20px 45%;
@@ -797,7 +796,7 @@ div#immagineclub {
 }
 div#cellaclub { 
     /*background-color: #ad94ff;*/
-    background-color:color-mix(in hsl shorter hue, color percentage, color percentage); 
+    background-color:color-mix(in hsl shorter hue, white 20%, blue 15%);
     margin-top: 10px;
     margin-right: 40%;
     margin-bottom: 30px;
@@ -809,6 +808,20 @@ div#cellaclub {
     border-radius: 10px; 
     box-shadow: 5px 5px 9px 4px black;
 }
+   div#cellaclub:hover { 
+    /*background-color: #ad94ff;*/
+    background-color:color-mix(in hsl shorter hue, white 60%, blue 15%);
+    margin-top: 15px;
+    margin-right: 40%;
+    margin-bottom: 30px;
+    margin-left: 130px;
+    padding: 5px 10px 10px 10px;
+    max-width: 500px;
+    min-width: 500px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 9px 4px black;
+} 
 .contenitoreclub {
     display: flex;
     flex-wrap: wrap; /* Permette di andare a capo se serve */
