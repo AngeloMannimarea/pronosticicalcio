@@ -431,8 +431,8 @@ div#cellaclub:hover {
     margin-left: 20px;
     padding: 5px 10px 10px 10px;
     border: 2px solid black;
-    border-radius: 10px; 
-    box-shadow: 5px 5px 9px 4px black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 2px black;
 }
 .contenitoreclub {
     display: flex;
@@ -832,7 +832,7 @@ div#cellaclub {
     min-width: 500px;
     border: 2px solid black;
     border-radius: 10px; 
-    box-shadow: 5px 5px 9px 4px black;
+    box-shadow: 2px 2px 3px 2px black;
 } 
 .contenitoreclub {
     display: flex;
