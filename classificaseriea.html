@@ -5,8 +5,11 @@
         <title>SERIE A</title>
         <style>
             body {
-                background-image: linear-gradient(to right,green,white,red);
-                font-family: sans-serif;
+                background-color: white;
+                background-attachment: fixed;
+                background-image: url('bandieraitalianasfondo.jpg'); /* Percorso immagine */
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                /* background-image: linear-gradient(to right,green,white,red); */
                 margin: 20px;
             }   
             h1{
@@ -46,14 +49,12 @@
                 padding: 4px;
             }
             tr:nth-child(even) {
-              /* background-color:color-mix(in hsl shorter hue, color percentage, color percentage);  */
-              background-color: black;   /* nero */
+              background-color:color-mix(in hsl shorter hue, white 65%, blue 25%); 
               font-weight: bold; 
-              color: white;            /* testo bianco per contrasto */
+              color: black;            /* testo nero per contrasto */
             }
             tr:nth-child(odd) {
-              /* background-color:color-mix(in hsl shorter hue, color percentage, color percentage);  */
-              background-color: white; /* bianco */
+              background-color:color-mix(in hsl shorter hue, white 65%, blue 25%);  
               font-weight: bold;
               color: black;            /* testo nero */
             }
