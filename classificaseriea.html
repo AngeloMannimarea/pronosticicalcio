@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>15 Div a Sinistra</title>
+  <title>Div Principale a Sinistra + 15 Blocchi a Destra</title>
   <style>
     .contenitore {
       display: flex;
@@ -10,16 +10,24 @@
       padding: 20px;
       background-color: #f0f0f0;
       border: 2px solid #ccc;
-      flex-wrap: wrap; /* utile se va su più righe */
+      flex-wrap: wrap; /* opzionale per gestire overflow */
     }
 
-    .barra-sinistra {
+    .principale {
+      padding: 20px;
+      background-color: #fff;
+      border: 2px dashed #999;
+      min-width: 150px;
+      text-align: center;
+      margin-right: 20px; /* spazio tra principale e blocchi */
+    }
+
+    .barra-destra {
       display: flex;
       flex-direction: row;
       gap: 5px;
-      margin-right: 20px;
-      flex-wrap: wrap; /* va a capo se serve */
-      max-width: 600px; /* limite facoltativo */
+      flex-wrap: wrap; /* se vuoi che vadano a capo su schermi piccoli */
+      max-width: 600px; /* limite opzionale */
     }
 
     .blocco {
@@ -32,21 +40,18 @@
       border-radius: 4px;
       font-size: 14px;
     }
-
-    .principale {
-      padding: 20px;
-      background-color: #fff;
-      border: 2px dashed #999;
-      min-width: 150px;
-      text-align: center;
-    }
   </style>
 </head>
 <body>
 
   <div class="contenitore">
-    <div class="barra-sinistra">
-      <!-- 15 blocchi numerati -->
+    <!-- Div principale a sinistra -->
+    <div class="principale">
+      DIV PRINCIPALE
+    </div>
+
+    <!-- 15 div a destra del principale -->
+    <div class="barra-destra">
       <div class="blocco">1</div>
       <div class="blocco">2</div>
       <div class="blocco">3</div>
@@ -63,14 +68,13 @@
       <div class="blocco">14</div>
       <div class="blocco">15</div>
     </div>
-
-    <div class="principale">
-      DIV PRINCIPALE
-    </div>
   </div>
 
 </body>
 </html>
+
+
+
 
 <!-- <!DOCTYPE html>
 <html lang="it">
