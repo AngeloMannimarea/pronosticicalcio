@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>BUNDESLIGA</title>
+        <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="paginazione1.css">  
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    </head>
-        <style> 
-            body{
+        <script src="script.js" defer></script>    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+        <style>
+           body{
+              color:black;
+              background-color: white;
+              background-attachment: fixed;
+              background-image: url('bandieratedescasfondo.jpg'); /* Percorso immagine */
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            @media only screen and (max-width: 800px ) {
+                body{
+                    color:black;
+                    background-color: white;
+                    background-attachment: fixed;
+                    background-image: url('bandieratedescasfondo800.jpg'); /* Percorso immagine */
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                 } 
+            }
+            /* adattamenti, per schermi smartphone */
+            @media only screen and (max-width: 600px ) {
+                body{
                 color:black;
                 background-color: white;
                 background-attachment: fixed;
-                background-image: url('bandieratedescasfondo.jpg'); /* Percorso immagine */
+                background-image: url('bandieratedescasfondo500.jpg'); /* Percorso immagine */
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-               }
-        </style>  
+             } 
+            }
+        </style> 
+        <title>BUNDESLIGA</title>
+    </head>
+    <body>
             <div id="immagineclassificabundesliga"> 
                     <img src="logobundesligaclassifica2.png" alt="Serie A">
                 </div>
