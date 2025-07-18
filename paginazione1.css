@@ -810,6 +810,7 @@ div#immagineclub {
 }
 div#cellaclub { 
     /*background-color: #ad94ff;*/
+    font-weight: normal;
     background-color:color-mix(in hsl shorter hue, white 20%, blue 15%);
     margin-top: 10px;
     margin-right: 40%;
@@ -824,6 +825,7 @@ div#cellaclub {
 }
    div#cellaclub:hover { 
     /*background-color: #ad94ff;*/
+    font-weight: bold;
     background-color:color-mix(in hsl shorter hue, white 60%, blue 15%);
     margin-top: 15px;
     margin-right: 40%;
