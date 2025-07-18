@@ -1229,6 +1229,7 @@ div#nomesquadra{
     cursor: default;
 }    
  div#cellaclub {
+    font-weight: nornal;
     background-color:color-mix(in hsl shorter hue, white 30%, blue 15%);
     margin-top: 25px;
     margin-right: 20%; 
@@ -1242,6 +1243,7 @@ div#nomesquadra{
     box-shadow: 5px 5px 9px 4px black;
 }   
     div#cellaclub:hover {
+    font-weight: bold;
     background-color:color-mix(in hsl shorter hue, white 60%, blue 15%);
     margin-top: 25px;
     margin-right: 20%; 
