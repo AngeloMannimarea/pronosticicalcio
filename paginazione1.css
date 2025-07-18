@@ -413,6 +413,7 @@ div#nomeclub {
     cursor: default;
 }
 div#cellaclub { 
+    font-weight: normal;
     background-color:color-mix(in hsl shorter hue, white 20%, blue 15%);
     margin-top: 10px; 
     margin-right: 50px;
@@ -424,6 +425,7 @@ div#cellaclub {
     box-shadow: 5px 5px 9px 4px black;
 }
 div#cellaclub:hover { 
+    font-weight: bold;
     background-color:color-mix(in hsl shorter hue, white 60%, blue 15%);
     margin-top: 10px; 
     margin-right: 40px;
