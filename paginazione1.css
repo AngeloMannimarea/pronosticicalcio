@@ -1072,7 +1072,7 @@ div#lavori {
         font-size: 16px;
         text-align: center;
         margin: 10px 10px 25px 10px;
-        padding: 3px;
+        padding: 1px 1px 1px 1px;
         border-radius: 10px;
         border: 1px solid black;
         box-shadow: 3px 3px 4px 3px black;
@@ -1083,7 +1083,7 @@ div#lavori {
         font-size: 16px;
         text-align: center;
         margin: 10px 10px 25px 10px;
-        padding:3px;
+        padding: 1px 1px 1px 1px;
         border-radius: 10px;
         border: 1px solid black;
         box-shadow: 1px 1px 2px 1px black;
