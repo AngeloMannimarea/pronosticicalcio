@@ -141,7 +141,6 @@ div#contenitorecampionato {
 }
 div#campionato {
     color: black;
-    background-color: goldenrod;
     text-align: center;
     font-size: 12px;
     min-width: 180px;
@@ -159,8 +158,6 @@ div#campionato:hover {
     border: 2px solid whitesmoke;
     border-radius: 15px;
     box-shadow: 2px 2px 3px 2px black;
-    background-color: gold;
-    
 }
 div#inizio {
     color: black;
