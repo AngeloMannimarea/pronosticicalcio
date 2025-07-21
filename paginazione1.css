@@ -156,7 +156,7 @@ div#campionato:hover {
     text-align: center;
     min-width: 180px;
     border: 2px solid whitesmoke;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 2px 2px 3px 2px black;
 }
 div#inizio {
