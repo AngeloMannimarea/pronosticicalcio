@@ -52,9 +52,13 @@ h3{
     margin-top: 7px; 
     margin-bottom: 1px;
     margin-left: 5px; 
-    
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bianco {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
 }
 .testoverde {
     font-weight: bolder;
