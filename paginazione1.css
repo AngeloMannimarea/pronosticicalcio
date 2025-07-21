@@ -127,7 +127,7 @@ div#inizio {
     padding: 0px 1px 2px 5px;
 }
 .sfondo {
-  background-image: url('sfondocampionato.jpg');
+  background-image: url('sfondocampionatoseriea.png');
   background-size: cover;        /* Copre tutto il div */
   background-position: center;   /* Centra l'immagine */
   width: 180px;
