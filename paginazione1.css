@@ -104,8 +104,8 @@ div#barradinavigazione {
     box-shadow: 5px 5px 9px 4px black;
 }   
 .cellebarra:hover {
-    background-color: goldenrod;  
-    border: 1px solid white;
+    background-color: white;  
+    border: 1px solid black;
     box-shadow: 2px 2px 3px 2px black;
 }
 /* ******************************************************************* */
