@@ -514,6 +514,11 @@ a:active{
     h3{
         font-size: 15px;
     }
+    .bianco {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    }
     img.immagine-logo-seriea{
     border: 2px solid goldenrod;
     border-radius: 10px;
@@ -938,6 +943,11 @@ div#piedipagina:hover {
     h3{
         font-size: 13px;
         font-weight: bolder;
+    }
+    .bianco {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
     }
     img.immagine-logo-seriea{
     border: 2px solid goldenrod;
