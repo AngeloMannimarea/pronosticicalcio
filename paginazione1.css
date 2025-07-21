@@ -1037,7 +1037,7 @@ div#inizio {
   width: 120px;
   height: 140px;
   border-radius: 10px; 
-  padding: 0px 1px 0px 0px;
+  padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;  
   border: 1px solid black; 
 }
@@ -1049,7 +1049,7 @@ div#inizio {
   height: 140px;
   border-radius: 10px; 
   padding: 0px 0px 0px 0px;
-  margin: 0px 1px 0px 0px;  
+  margin: 0px 0px 0px 0px;  
   border: 1px solid black;  
 }      
 div#campionato {
@@ -1063,7 +1063,7 @@ div#campionato {
     min-height: 140px;
     box-shadow: 5px 5px 9px 4px black;
     margin-top: 5px;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 1px 0px 0px;
     margin: 5px 10px 25px 10px;
     }
 div#campionato:hover {
@@ -1075,6 +1075,7 @@ div#campionato:hover {
     border-radius: 10px;
     box-shadow: 2px 2px 3px 2px black;
     margin: 5px 10px 25px 10px;
+    padding: 0px 1px 0px 0px;
     }
 img.immagine-logo-seriea{
     width: 60px;
