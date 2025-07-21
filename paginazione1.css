@@ -620,8 +620,8 @@ div#inizio {
   background-image: url('sfondocampionatoserieahover.png');
   background-size: cover;        /* Copre tutto il div */
   background-position: center;   /* Centra l'immagine */
-  width: 180px;
-  height: 170px;
+  width: 250px;
+  height: 235px;
   border-radius: 10px; 
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;  
@@ -1048,8 +1048,8 @@ div#inizio {
   background-image: url('sfondocampionatoserieahover.png');
   background-size: cover;        /* Copre tutto il div */
   background-position: center;   /* Centra l'immagine */
-  width: 180px;
-  height: 170px;
+  width: 120px;
+  height: 140px;
   border-radius: 10px; 
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;  
