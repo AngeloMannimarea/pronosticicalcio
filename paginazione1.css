@@ -583,7 +583,7 @@ a:active{
     box-shadow: 4px 4px 4px 3px black;
     }   
 .cellebarra:hover {
-    background-color: gold;  
+    background-color: goldenrod;  
     border: 1px solid white;
     box-shadow: 2px 2px 3px 2px black;
 }    
@@ -1010,7 +1010,7 @@ div#piedipagina:hover {
     box-shadow: 3px 3px 4px 2px black;
     }  
  .cellebarra:hover {
-    background-color: #ad94ff;  
+    background-color: goldenrod;  
     border: 1px solid white;
     box-shadow: 1px 1px 1px 1px black;
 }    
