@@ -1040,7 +1040,7 @@ div#inizio {
   width: 120px;
   height: 140px;
   border-radius: 10px; 
-  padding: 0px 0px 0px 0px;
+  padding: 0px 1px 0px 0px;
   margin: 0px 0px 0px 0px;  
   border: 1px solid black; 
 }
@@ -1052,7 +1052,7 @@ div#inizio {
   height: 140px;
   border-radius: 10px; 
   padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;  
+  margin: 0px 1px 0px 0px;  
   border: 1px solid black;  
 }      
 div#campionato {
