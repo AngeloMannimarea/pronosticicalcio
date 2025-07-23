@@ -1000,7 +1000,7 @@ div#piedipagina:hover {
     width: 15px; 
     height: 17px;
     text-align: center;
-    font-size: 11px;
+    font-size: 10px;
     min-width: 90px;
     margin-top: 3px;
     margin-bottom: 10px;
@@ -1078,7 +1078,7 @@ div#campionato:hover {
     padding: 0px 1px 0px 0px;
     }
 img.immagine-logo-seriea{
-    width: 60px;
+    width: 70px;
     height: 80px;
     min-width: 50px;
     margin-top: 1px;
@@ -1089,11 +1089,11 @@ img.immagine-logo-seriea{
     cursor: pointer;
 }
 img.immagine-logo-seriea:hover {
-    width:65px;
+    width:75px;
     margin-top: 0px;
     margin-bottom: 1px;
     border: 1px solid gold;
-    transform: scale(1.20); /* ingrandimento al 150% */
+    transform: scale(1.15); /* ingrandimento al 150% */
     z-index: 1000;
     cursor:default;
 }    
