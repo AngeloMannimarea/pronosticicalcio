@@ -257,7 +257,7 @@ div#immagineclassificabundesliga {
 #classifica{
         /* background-color:#ad94ff;*/
         /* background-color:color-mix(in hsl shorter hue, white, color percentage); */
-        background-color:color-mix(in hsl shorter hue, white 20%, blue 15%);
+        background-color:color-mix(in hsl shorter hue, white 25%, blue 15%);
         width: 350px;
         font-size: 16px;
         text-align: center;
@@ -269,7 +269,7 @@ div#immagineclassificabundesliga {
         box-shadow: 3px 3px 4px 3px black;
 }
 #classifica:hover {
-        background-color:color-mix(in hsl shorter hue, white 60%, blue 15%);
+        background-color:color-mix(in hsl shorter hue, white 65%, blue 15%);
         width: 350px; 
         font-size: 16px;
         text-align: center;
@@ -284,7 +284,7 @@ div#immagineclassificabundesliga {
 /* Gestione della cella del pronostico                                 */
 /* ******************************************************************* */
 div#cellapartita {
-     background-color:color-mix(in hsl shorter hue, white 20%, blue 15%); 
+     background-color:color-mix(in hsl shorter hue, white 25%, blue 15%); 
     /* background-color: #a489fa; */
     margin-top: 10px;
     margin-right: 50px;
@@ -296,7 +296,7 @@ div#cellapartita {
     box-shadow: 5px 5px 9px 4px black;
 }
 div#cellapartita:hover {
-    background-color:color-mix(in hsl shorter hue, white 60%, blue 15%);
+    background-color:color-mix(in hsl shorter hue, white 65%, blue 15%);
     font-weight: bold;
     margin-left: 20px;
     /* background-color: #cacaca; */ 
@@ -677,7 +677,7 @@ h1.schedine{
     margin-left: 15%;
 }
 #classifica{
-        background-color:color-mix(in hsl shorter hue, white 20%, blue 15%);
+        background-color:color-mix(in hsl shorter hue, white 25%, blue 15%);
         width: 350px;
         font-size: 16px;
         text-align: center;
@@ -687,7 +687,7 @@ h1.schedine{
         box-shadow: 3px 3px 4px 3px black;
 }
 #classifica:hover {
-        background-color:color-mix(in hsl shorter hue, white 60%, blue 15%);
+        background-color:color-mix(in hsl shorter hue, white 65%, blue 15%);
         background-color: goldenrod;
         width: 350px;
         font-size: 16px;
@@ -699,7 +699,7 @@ h1.schedine{
 }
 div#cellapartita {
     /*background-color: #ad94ff;*/
-    background-color:color-mix(in hsl shorter hue, white 20%, blue 15%);
+    background-color:color-mix(in hsl shorter hue, white 25%, blue 15%);
     /* background-color:color-mix(in hsl shorter hue, color percentage, color percentage); */
     margin-top: 10px;
     margin-right: 40%;
@@ -713,7 +713,7 @@ div#cellapartita {
     box-shadow: 5px 5px 9px 4px black;
 }
 div#cellapartita:hover {
-    background-color:color-mix(in hsl shorter hue, white 60%, blue 15%);
+    background-color:color-mix(in hsl shorter hue, white 65%, blue 15%);
     /* background-color: #cacaca; */
     /* font-weight: bolder; */
     margin-top: 10px;
@@ -842,7 +842,7 @@ div#immagineclub {
 div#cellaclub { 
     /*background-color: #ad94ff;*/
     font-weight: normal;
-    background-color:color-mix(in hsl shorter hue, white 20%, blue 15%);
+    background-color:color-mix(in hsl shorter hue, white 25%, blue 15%);
     margin-top: 10px;
     margin-right: 40%;
     margin-bottom: 30px;
@@ -857,7 +857,7 @@ div#cellaclub {
    div#cellaclub:hover { 
     /*background-color: #ad94ff;*/
     font-weight: bold;
-    background-color:color-mix(in hsl shorter hue, white 60%, blue 15%);
+    background-color:color-mix(in hsl shorter hue, white 65%, blue 15%);
     margin-top: 15px;
     margin-right: 40%;
     margin-bottom: 30px;
@@ -1137,7 +1137,7 @@ div#lavori {
         box-shadow: 1px 1px 2px 1px black;
 }
 div#cellapartita {
-    background-color:color-mix(in hsl shorter hue, white 20%, blue 15%);
+    background-color:color-mix(in hsl shorter hue, white 25%, blue 15%);
     margin-top: 25px;
     margin-right: 20%; 
     margin-bottom: 20px;
@@ -1150,7 +1150,7 @@ div#cellapartita {
     box-shadow: 5px 5px 9px 4px black;
 }
 div#cellapartita:hover {
-    background-color:color-mix(in hsl shorter hue, white 60%, blue 15%);
+    background-color:color-mix(in hsl shorter hue, white 65%, blue 15%);
     margin-top: 25px;
     margin-right: 20%;
     margin-bottom: 20px;
@@ -1280,7 +1280,7 @@ div#nomesquadra{
 }    
  div#cellaclub {
     font-weight: nornal;
-    background-color:color-mix(in hsl shorter hue, white 30%, blue 15%);
+    background-color:color-mix(in hsl shorter hue, white 35%, blue 15%);
     margin-top: 25px;
     margin-right: 20%; 
     margin-bottom: 20px;
@@ -1294,7 +1294,7 @@ div#nomesquadra{
 }   
     div#cellaclub:hover {
     font-weight: bold;
-    background-color:color-mix(in hsl shorter hue, white 60%, blue 15%);
+    background-color:color-mix(in hsl shorter hue, white 65%, blue 15%);
     margin-top: 25px;
     margin-right: 20%; 
     margin-bottom: 20px;
