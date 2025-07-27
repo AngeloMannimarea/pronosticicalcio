@@ -435,7 +435,7 @@ div#cellaclub {
     padding: 5px 10px 10px 10px;
     border: 2px solid black;
     border-radius: 10px; 
-    box-shadow: 5px 5px 9px 4px black;
+    box-shadow: 5px 5px 9px 4px black; 
 }
 div#cellaclub:hover { 
     font-weight: bold;
