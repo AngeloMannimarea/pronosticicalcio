@@ -71,7 +71,19 @@ testoabbributo {
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+div#facebook {
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    min-width: 180px;
+    min-height: 170px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin: 5px 10px 25px 10px;
+    box-shadow: 5px 5px 9px 4px black;
+    padding: 0px 0px 0px 0px;
+    
+}
 /* ******************************************************************* */
 /* barra di navigazione delle schedine e della presentazione del sito. */
 /* ******************************************************************* */
@@ -110,6 +122,7 @@ div#barradinavigazione {
 /* ******************************************************************* */
 /* Barra di selezione dei campionati e dei pronostici affini.          */
 /* ******************************************************************* */
+
 div#contenitorecampionato {
     clear:both;
     display: flex;
