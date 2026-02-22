@@ -75,8 +75,8 @@ div#collegafacebook {
     color: black;
     text-align: center;
     font-size: 12px;
-    min-width: 180px;
-    min-height: 170px;
+    max-width: 140px;
+    max-height: 70px;
     border: 2px solid whitesmoke;
     border-radius: 10px;
     margin: 5px 200px 25px 10px;
