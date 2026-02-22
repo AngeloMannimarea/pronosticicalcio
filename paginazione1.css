@@ -1365,6 +1365,19 @@ div#valoreattributoclub {
 div#piedipagina{
     display: none;
 }
+    div#collegafacebook {
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    max-width: 100px;
+    max-height: 100px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin: 5px 200px 25px 10px;
+    box-shadow: 5px 5px 9px 4px black;
+    padding: 0px 0px 0px 0px;
+    
+}
   a{ 
     font-weight: bold;
     font-size: 12px;
