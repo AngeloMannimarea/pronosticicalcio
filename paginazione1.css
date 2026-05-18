@@ -322,7 +322,7 @@ div#cellapartita:hover {
     box-shadow: 2px 2px 3px 2px black;
 }
 .dataincontro{
-    width: 190px;
+    width: 220px;
     background-color: rgb(211, 206, 206);
     background-color: whitesmoke;
     border-radius: 10px;
@@ -739,7 +739,7 @@ div#cellapartita:hover {
     box-shadow: 2px 2px 3px 2px black;
 }
 .dataincontro{
-    width: 160px;
+    width: 220px;
     background-color: rgb(211, 206, 206);
     background-color: white;
     border-radius: 10px; 
@@ -1174,7 +1174,7 @@ div#cellapartita:hover {
     box-shadow: 2px 2px 3px 2px black;
 }
 .dataincontro{
-    width: 150px;
+    width: 180px;
     background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
     border-radius: 10px;
     border: 1px solid black;
