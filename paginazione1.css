@@ -189,8 +189,8 @@ img.immagine-logo-seriea {
     width: 80px;
     height: 100px;
     min-width: 50px;
-    margin-top: 3px;
-    margin-bottom: 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     border: 2px solid goldenrod;
     border-radius: 10px;
     transition: transform 0.5s ease;
@@ -199,8 +199,8 @@ img.immagine-logo-seriea {
 img.immagine-logo-seriea:hover {
     width: 90px;
     min-width: 50px;
-    margin-top: 3px;
-    margin-bottom: 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     border: 2px solid goldenrod;
     transform: scale(1.15); /* ingrandimento al 125% */
     z-index: 1000;
