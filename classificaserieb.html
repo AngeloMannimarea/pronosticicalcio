@@ -1,1 +1,221 @@
+<!DOCTYPE html>
+<html lang="it">  
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="paginazione1.css">  
+        <script src="script.js" defer></script>    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+        <style>
+           body {
+              color: black;
+              background-color: white;
+              background-attachment: fixed;
+              background-image: url('bandieraitalianasfondo.png'); /* Percorso immagine */
+              background-size: cover;       /* Adatta l'immagine allo schermo */
+                background-position: center;  /* Centra l'immagine */
+                background-repeat: no-repeat; /* Non ripetere l'immagine */ 
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            @media only screen and (max-width: 800px ) {
+                body{
+                    color:black;
+                    background-color: white;
+                    background-attachment: fixed;
+                    background-image: url('bandieraitalianasfondo800.png'); /* Percorso immagine */
+                    background-size: cover;       /* Adatta l'immagine allo schermo */
+                background-position: center;  /* Centra l'immagine */
+                background-repeat: no-repeat; /* Non ripetere l'immagine */
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                 } 
+            }
+            /* adattamenti, per schermi smartphone */
+            @media only screen and (max-width: 600px ) {
+                body{
+                color:black;
+                background-color: white;
+                background-attachment: fixed;
+                background-image: url('bandieraitalianasfondo500.png'); /* Percorso immagine */
+                background-size: cover;       /* Adatta l'immagine allo schermo */
+                background-position: center;  /* Centra l'immagine */
+                background-repeat: no-repeat; /* Non ripetere l'immagine */    
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+             } 
+            }
+    .contenitore {
+      display: flex;
+      flex-direction: column;
+      gap: 3px; /* spazio tra le righe */
+      padding: 5px;
+      background-color:color-mix(in hsl shorter hue, black 0%, blue 0%);
+    }
+    .riga {
+      display: flex;
+      flex-direction: row;
+      gap: 0px; /* spazio tra i blocchi */
+    }
+    .bloccogrande {
+      width: 120px;
+      height: 30px;
+      /* background-color:color-mix(in hsl shorter hue, black 40%, blue 5%); */
+      background-color: whitesmoke;
+      color: black;
+      text-align: center;
+      line-height: 25px;
+      border-radius: 0px;
+      border: 1px solid black;
+      font-weight: normal;
+      user-select: none;
+    }
+    .blocco {
+      width: 40px;
+      height: 30px;
+      /* background-color:color-mix(in hsl shorter hue, black 40%, blue 5%); */
+      background-color : whitesmoke;
+      color: black;
+      text-align: center;
+      line-height: 30px; 
+      border-radius: 0px; 
+      border: 1px solid black;
+      font-weight: normal;
+      user-select: none;
+    }
+       /* GESTIONE DEI COLLEGAMENTI LINK */
+a{ 
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: dotted ;
+    color: white;
+    text-align: center;
+    margin: 1px 1px 1px 1px;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+a:active{
+    color:aquamarine;
+}     
+  </style>
+      <title>CLASSIFICA SERIE A</title>
+</head>
+<body>
+  <h1>
+     CLASSIFICA SERIE A
+     </h1>
+     <div>
+        <a href="glossario.html">Guarda il Glossario</a>
+     </div>    
+  <div class="contenitore">
+    <div class="riga">
+      <div class="blocco">P</div><div class="bloccogrande">Squadra</div><div class="blocco">V</div><div class="blocco">P</div><div class="blocco">S</div>
+      <div class="blocco">GF</div><div class="blocco">GS</div><div class="blocco">DR</div><div class="blocco">PU</div><div class="blocco">GCF</div>
+      <div class="blocco">GCS</div><div class="blocco">PC</div><div class="blocco">GFF</div><div class="blocco">GFS</div><div class="blocco">PFC</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">1</div><div class="bloccogrande">INTER</div><div class="blocco">20</div><div class="blocco">1</div><div class="blocco">4</div>
+      <div class="blocco">60</div><div class="blocco">21</div><div class="blocco">39</div><div class="blocco">61</div><div class="blocco">36</div>
+      <div class="blocco">12</div><div class="blocco">31</div><div class="blocco">24</div><div class="blocco">9</div><div class="blocco">30</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">2</div><div class="bloccogrande">MILAN</div><div class="blocco">15</div><div class="blocco">9</div><div class="blocco">1</div>
+      <div class="blocco">41</div><div class="blocco">19</div><div class="blocco">22</div><div class="blocco">54</div><div class="blocco">18</div>
+      <div class="blocco">10</div><div class="blocco">25</div><div class="blocco">23</div><div class="blocco">9</div><div class="blocco">29</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">3</div><div class="bloccogrande">NAPOLI</div><div class="blocco">15</div><div class="blocco">5</div><div class="blocco">5</div>
+      <div class="blocco">38</div><div class="blocco">25</div><div class="blocco">22</div><div class="blocco">50</div><div class="blocco">21</div>
+      <div class="blocco">11</div><div class="blocco">28</div><div class="blocco">17</div><div class="blocco">14</div><div class="blocco">22</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">4</div><div class="bloccogrande">ROMA</div><div class="blocco">15</div><div class="blocco">2</div><div class="blocco">8</div>
+      <div class="blocco">31</div><div class="blocco">16</div><div class="blocco">15</div><div class="blocco">47</div><div class="blocco">16</div>
+      <div class="blocco">6</div><div class="blocco">25</div><div class="blocco">15</div><div class="blocco">10</div><div class="blocco">22</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">5</div><div class="bloccogrande">JUVENTUS</div><div class="blocco">13</div><div class="blocco">7</div><div class="blocco">5</div>
+      <div class="blocco">43</div><div class="blocco">23</div><div class="blocco">20</div><div class="blocco">46</div><div class="blocco">25</div>
+      <div class="blocco">10</div><div class="blocco">25</div><div class="blocco">18</div><div class="blocco">13</div><div class="blocco">20</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">6</div><div class="bloccogrande">COMO</div><div class="blocco">11</div><div class="blocco">9</div><div class="blocco">5</div>
+      <div class="blocco">39</div><div class="blocco">19</div><div class="blocco">20</div><div class="blocco">42</div><div class="blocco">21</div>
+      <div class="blocco">9</div><div class="blocco">23</div><div class="blocco">18</div><div class="blocco">10</div><div class="blocco">19</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">7</div><div class="bloccogrande">ATALANTA</div><div class="blocco">11</div><div class="blocco">9</div><div class="blocco">5</div>
+      <div class="blocco">34</div><div class="blocco">21</div><div class="blocco">13</div><div class="blocco">42</div><div class="blocco">20</div>
+      <div class="blocco">10</div><div class="blocco">25</div><div class="blocco">14</div><div class="blocco">11</div><div class="blocco">17</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">8</div><div class="bloccogrande">SASSUOLO</div><div class="blocco">3</div><div class="blocco">4</div><div class="blocco">5</div>
+      <div class="blocco">6</div><div class="blocco">7</div><div class="blocco">8</div><div class="blocco">9</div><div class="blocco">10</div>
+      <div class="blocco">11</div><div class="blocco">12</div><div class="blocco">13</div><div class="blocco">14</div><div class="blocco">15</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">9</div><div class="bloccogrande">BOLOGNA</div><div class="blocco">3</div><div class="blocco">4</div><div class="blocco">5</div>
+      <div class="blocco">6</div><div class="blocco">7</div><div class="blocco">8</div><div class="blocco">9</div><div class="blocco">10</div>
+      <div class="blocco">11</div><div class="blocco">12</div><div class="blocco">13</div><div class="blocco">14</div><div class="blocco">15</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">10</div><div class="bloccogrande">LAZIO</div><div class="blocco">3</div><div class="blocco">4</div><div class="blocco">5</div>
+      <div class="blocco">6</div><div class="blocco">7</div><div class="blocco">8</div><div class="blocco">9</div><div class="blocco">10</div>
+      <div class="blocco">11</div><div class="blocco">12</div><div class="blocco">13</div><div class="blocco">14</div><div class="blocco">15</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">11</div><div class="bloccogrande">UDINESE</div><div class="blocco">3</div><div class="blocco">4</div><div class="blocco">5</div>
+      <div class="blocco">6</div><div class="blocco">7</div><div class="blocco">8</div><div class="blocco">9</div><div class="blocco">10</div>
+      <div class="blocco">11</div><div class="blocco">12</div><div class="blocco">13</div><div class="blocco">14</div><div class="blocco">15</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">12</div><div class="bloccogrande">PARMA</div><div class="blocco">3</div><div class="blocco">4</div><div class="blocco">5</div>
+      <div class="blocco">6</div><div class="blocco">7</div><div class="blocco">8</div><div class="blocco">9</div><div class="blocco">10</div>
+      <div class="blocco">11</div><div class="blocco">12</div><div class="blocco">13</div><div class="blocco">14</div><div class="blocco">15</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">13</div><div class="bloccogrande">CAGLIARI</div><div class="blocco">3</div><div class="blocco">4</div><div class="blocco">5</div>
+      <div class="blocco">6</div><div class="blocco">7</div><div class="blocco">8</div><div class="blocco">9</div><div class="blocco">10</div>
+      <div class="blocco">11</div><div class="blocco">12</div><div class="blocco">13</div><div class="blocco">14</div><div class="blocco">15</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">14</div><div class="bloccogrande">TORINO</div><div class="blocco">3</div><div class="blocco">4</div><div class="blocco">5</div>
+      <div class="blocco">6</div><div class="blocco">7</div><div class="blocco">8</div><div class="blocco">9</div><div class="blocco">10</div>
+      <div class="blocco">11</div><div class="blocco">12</div><div class="blocco">13</div><div class="blocco">14</div><div class="blocco">15</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">15</div><div class="bloccogrande">GENOA</div><div class="blocco">3</div><div class="blocco">4</div><div class="blocco">5</div>
+      <div class="blocco">6</div><div class="blocco">7</div><div class="blocco">8</div><div class="blocco">9</div><div class="blocco">10</div>
+      <div class="blocco">11</div><div class="blocco">12</div><div class="blocco">13</div><div class="blocco">14</div><div class="blocco">15</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">16</div><div class="bloccogrande">CREMONESE</div><div class="blocco">3</div><div class="blocco">4</div><div class="blocco">5</div>
+      <div class="blocco">6</div><div class="blocco">7</div><div class="blocco">8</div><div class="blocco">9</div><div class="blocco">10</div>
+      <div class="blocco">11</div><div class="blocco">12</div><div class="blocco">13</div><div class="blocco">14</div><div class="blocco">15</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">17</div><div class="bloccogrande">LECCE</div><div class="blocco">3</div><div class="blocco">4</div><div class="blocco">5</div>
+      <div class="blocco">6</div><div class="blocco">7</div><div class="blocco">8</div><div class="blocco">9</div><div class="blocco">10</div>
+      <div class="blocco">11</div><div class="blocco">12</div><div class="blocco">13</div><div class="blocco">14</div><div class="blocco">15</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">18</div><div class="bloccogrande">FIORENTINA</div><div class="blocco">3</div><div class="blocco">4</div><div class="blocco">5</div>
+      <div class="blocco">6</div><div class="blocco">7</div><div class="blocco">8</div><div class="blocco">9</div><div class="blocco">10</div>
+      <div class="blocco">11</div><div class="blocco">12</div><div class="blocco">13</div><div class="blocco">14</div><div class="blocco">15</div>
+    </div>
+    <div class="riga"> 
+      <div class="blocco">19</div><div class="bloccogrande">PISA</div><div class="blocco">3</div><div class="blocco">4</div><div class="blocco">5</div>
+      <div class="blocco">6</div><div class="blocco">7</div><div class="blocco">8</div><div class="blocco">9</div><div class="blocco">10</div>
+      <div class="blocco">11</div><div class="blocco">12</div><div class="blocco">13</div><div class="blocco">14</div><div class="blocco">15</div>
+    </div>
+    <div class="riga"> 
+      <div class="blocco">20</div><div class="bloccogrande">VERONA</div><div class="blocco">3</div><div class="blocco">4</div><div class="blocco">5</div>
+      <div class="blocco">6</div><div class="blocco">7</div><div class="blocco">8</div><div class="blocco">9</div><div class="blocco">10</div>
+      <div class="blocco">11</div><div class="blocco">12</div><div class="blocco">13</div><div class="blocco">14</div><div class="blocco">15</div>
+    </div>
+    <div class="riga">
+      <div class="blocco">P</div><div class="bloccogrande">Squadra</div><div class="blocco">V</div><div class="blocco">P</div><div class="blocco">S</div>
+      <div class="blocco">GF</div><div class="blocco">GS</div><div class="blocco">DR</div><div class="blocco">PU</div><div class="blocco">GCF</div>
+      <div class="blocco">GCS</div><div class="blocco">PC</div><div class="blocco">GFF</div><div class="blocco">GFS</div><div class="blocco">PFC</div>
+    </div>
+    </body>
+</html>
 
