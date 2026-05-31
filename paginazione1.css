@@ -1268,13 +1268,13 @@ div#nomesquadra{
  div#pronostico {
     background-color:color-mix(in hsl shorter hue, white 25%, blue 15%);  
     /* background-color: #a489fa; */
-    min-width: 230px;
-    max-width: 230px; 
+    min-width: 200px;
+    max-width: 200px; 
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 10px;
     padding: 5px 10px 10px 10px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px; 
     
 }   
