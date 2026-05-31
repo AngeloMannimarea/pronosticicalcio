@@ -1268,6 +1268,8 @@ div#nomesquadra{
  div#pronostico {
     background-color:color-mix(in hsl shorter hue, white 25%, blue 15%); 
     /* background-color: #a489fa; */
+    min-width: 230px;
+    max-width: 230px; 
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 10px;
