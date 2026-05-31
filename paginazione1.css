@@ -1210,8 +1210,8 @@ div#cellapartita:hover {
     background-color: white;
     width: 200px; 
     height: 25px;
-    min-width: 200px;
-    max-width: 200px;
+    min-width: 180px;
+    max-width: 180px;
     margin-left: 10px;
     margin-top: 2px;
     box-sizing: border-box;
@@ -1268,8 +1268,8 @@ div#nomesquadra{
  div#pronostico {
     background-color:color-mix(in hsl shorter hue, white 25%, blue 15%);  
     /* background-color: #a489fa; */
-    min-width: 200px;
-    max-width: 200px; 
+    min-width: 230px;
+    max-width: 230px; 
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 10px;
