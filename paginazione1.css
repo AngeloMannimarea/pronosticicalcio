@@ -1208,10 +1208,10 @@ div#cellapartita:hover {
     font-size: 11px;
     color: black;
     background-color: white;
-    width: 230px; 
+    width: 200px; 
     height: 25px;
-    min-width: 230px;
-    max-width: 230px;
+    min-width: 200px;
+    max-width: 200px;
     margin-left: 10px;
     margin-top: 2px;
     box-sizing: border-box;
