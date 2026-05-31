@@ -321,6 +321,9 @@ div#cellapartita:hover {
     border-radius: 10px; 
     box-shadow: 2px 2px 3px 2px black;
 }
+div#pronostico {
+    
+}
 .dataincontro{
     width: 240px;
     background-color: rgb(211, 206, 206);
