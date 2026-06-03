@@ -1265,9 +1265,9 @@ div#nomesquadra{
     font-weight: bold;
 
 }
- div#pronostico {
-    background-color:color-mix(in hsl shorter hue, white 25%, blue 15%);  
-    /* background-color: #a489fa; */
+ div#pronostico{
+    background-color:color-mix(in hsl shorter hue, white 25%, blue 15%);    
+    width: 230px;
     min-width: 230px;
     max-width: 230px; 
     margin-top: 5px;
@@ -1277,7 +1277,6 @@ div#nomesquadra{
     padding: 5px 10px 10px 10px;
     border: 1px solid black;
     border-radius: 10px; 
-    
 }   
 /* ******************************************************************* */
 /* Gestione delle statistiche del club                                 */
