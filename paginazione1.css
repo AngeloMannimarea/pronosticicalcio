@@ -827,6 +827,20 @@ div#nomesquadra{
 .boxsquadra:hover {
     border: 1px solid gold;
 }
+div#pronostico{
+    background-color:color-mix(in hsl shorter hue, white 25%, blue 15%);
+    text-align: center; 
+    width: 480px;
+    min-width: 480px;
+    max-width: 480px; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px; 
+}       
 /* ******************************************************************* */
 /* Gestione delle statistiche del club                                 */
 /* ******************************************************************* */
