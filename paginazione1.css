@@ -333,6 +333,16 @@ div#pronostico {
     border-radius: 10px; 
     
 }
+div#pronostico:hover {
+    background-color:color-mix(in hsl shorter hue, white 65%, blue 15%);
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 5px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px; 
+}
 .dataincontro{
     width: 240px;
     background-color: rgb(211, 206, 206);
