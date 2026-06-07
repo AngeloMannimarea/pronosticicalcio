@@ -415,7 +415,7 @@ div#pronostico {
 div#pronostico:hover {
     background-color:color-mix(in hsl shorter hue, white 65%, blue 15%);
     font-weight: bold;
-    color: gold;
+    color: black;
     margin-top: 10px;
     margin-right: 50px;
     margin-bottom: 15px;
