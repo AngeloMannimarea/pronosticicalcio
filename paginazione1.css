@@ -1201,7 +1201,7 @@ div#cellapartita {
     box-shadow: 5px 5px 9px 4px black;
 }
 div#cellapartita:hover {
-    background-color:color-mix(in hsl shorter hue, white 65%, blue 15%);
+    background-color:color-mix(in hsl shorter hue, white 25%, green 35%);
     margin-top: 25px;
     margin-right: 20%;
     margin-bottom: 20px;
@@ -1306,7 +1306,7 @@ div#nomesquadra{
     border-radius: 10px; 
 }   
  div#pronostico:hover {
-    background-color:color-mix(in hsl shorter hue, white 65%, blue 15%);  
+    background-color:color-mix(in hsl shorter hue, white 25%, #9AD872 35%);  
     text-align: center; 
     width: 210px;
     min-width: 210px;
