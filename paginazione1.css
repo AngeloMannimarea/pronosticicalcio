@@ -297,7 +297,7 @@ div#immagineclassificabundesliga {
 /* Gestione della cella del pronostico                                 */
 /* ******************************************************************* */
 div#cellapartita {
-     background-color:color-mix(in hsl shorter hue, white 25%, goldenrod 15%); 
+     background-color:color-mix(in hsl shorter hue, white 25%, goldenrod 45%); 
     /* background-color: #a489fa; */
     margin-top: 10px;
     margin-right: 50px;
@@ -309,7 +309,7 @@ div#cellapartita {
     box-shadow: 5px 5px 9px 4px black;
 }
 div#cellapartita:hover {
-    background-color:color-mix(in hsl shorter hue, white 25%, goldenrod 35%);
+    background-color:color-mix(in hsl shorter hue, white 25%, goldenrod 65%);
     font-weight: bold;
     margin-left: 20px;
     /* background-color: #cacaca; */ 
@@ -402,7 +402,7 @@ div#nomesquadra{
     cursor: default;
 } 
 div#pronostico {
-    background-color:color-mix(in hsl shorter hue, white 25%, goldenrod 15%); 
+    background-color:color-mix(in hsl shorter hue, white 25%, goldenrod 45%); 
     /* background-color: #a489fa; */
     margin-top: 10px;
     margin-right: 50px;
@@ -413,7 +413,7 @@ div#pronostico {
     border-radius: 10px; 
 }
 div#pronostico:hover {
-    background-color:color-mix(in hsl shorter hue, white 25%, goldenrod 35%);
+    background-color:color-mix(in hsl shorter hue, white 25%, goldenrod 65%);
     font-weight: bold;
     color: black;
     margin-top: 10px;
