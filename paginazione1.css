@@ -309,7 +309,7 @@ div#cellapartita {
     box-shadow: 5px 5px 9px 4px black;
 }
 div#cellapartita:hover {
-    background-color:color-mix(in hsl shorter hue, white 25%, goldenrod 75%);
+    background-color:color-mix(in hsl shorter hue, white 25%, goldenrod 70%);
     font-weight: bold;
     margin-left: 20px;
     /* background-color: #cacaca; */ 
@@ -413,7 +413,7 @@ div#pronostico {
     border-radius: 10px; 
 }
 div#pronostico:hover {
-    background-color:color-mix(in hsl shorter hue, white 25%, goldenrod 75%);
+    background-color:color-mix(in hsl shorter hue, white 25%, goldenrod 70%);
     font-weight: bold;
     color: black;
     margin-top: 10px;
